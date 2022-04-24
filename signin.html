@@ -3,14 +3,14 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Signup and Signin page</title>
+  <title>Signin page</title>
   <link rel="stylesheet" href="signin.css">
 </head>
 <body>
     <h2>Login or Sign Up </h2>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
-            <form action="#">
+            <form action="signup.html">
                 <h1>Create Account</h1>
                 <div class="social-container">
                     <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -27,12 +27,6 @@
         <div class="form-container sign-in-container">
             <form action="#">
                 <h1>Login</h1>
-                <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <span>or use your account</span>
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
                 <a href="#">Forgot your password</a>
@@ -49,7 +43,7 @@
                 <div class="overlay-panel overlay-right">
                     <h1>Hello!</h1>
                     <p>Enter your personal details and begin your journey with us</p>
-                    <button class="ghost" id="signUp">Sign Up</button>
+                    <button class="ghost" id="signUp" formaction="signup.html">Sign up</button>
                 </div>
             </div>
         </div>
