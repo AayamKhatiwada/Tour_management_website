@@ -10,7 +10,7 @@
             <h2 class="heading">Tour Management System</h2>
             <ul>
                 <li><a href="home.html">Home </a></li>
-                <li><a href="#">About us</a></li>
+                <li><a href="aboutus.html">About us</a></li>
                 <li><a href="#">Tour package</a></li>
                 <li><a href="#">Enquiries</a></li>
                 <li><a href="Contact_Us.html">Contact us</a></li>
@@ -21,6 +21,14 @@
             </ul>
         </div>
         <hr class="h">
+        <div class="topnav">
+            <form class="search-container" action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <label for="Date">Date:</label>
+                <input type="date" id="Date" name="Date">
+                <input type="submit">
+            </form>
+        </div>
         <div id="slider">
             <ul id="slideWrap"> 
               <li><img src="1.jpg" alt=""></li>
@@ -36,15 +44,6 @@
             <img class="img2" src="1.jpg" >
         </div>
 
-        <div class="search">
-            <form class="example" action="/action_page.php">
-                <input type="text" placeholder="Search your package" name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
-                <label for="Date">Date:</label>
-                <input type="date" id="Date" name="Date">
-                <input type="submit">
-            </form>
-        </div>
     </div>
 
     <script src="home.js"> </script>
