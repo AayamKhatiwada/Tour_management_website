@@ -1,0 +1,4490 @@
+html {
+    font-family: sans-serif;
+    text-size-adjust: 100%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  html,
+  body {
+    font-size: 100%;
+    background: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+  }
+  body {
+    margin: 0px;
+  }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 255, 255);
+  }
+  .top-header {
+    background-color: rgb(63, 132, 177);
+    border-bottom: 0px none;
+    height: 36px;
+    line-height: 35px;
+  }
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .clearfix::before,
+  .clearfix::after,
+  .dl-horizontal dd::before,
+  .dl-horizontal dd::after,
+  .container::before,
+  .container::after,
+  .container-fluid::before,
+  .container-fluid::after,
+  .row::before,
+  .row::after,
+  .form-horizontal .form-group::before,
+  .form-horizontal .form-group::after,
+  .btn-toolbar::before,
+  .btn-toolbar::after,
+  .btn-group-vertical > .btn-group::before,
+  .btn-group-vertical > .btn-group::after,
+  .nav::before,
+  .nav::after,
+  .navbar::before,
+  .navbar::after,
+  .navbar-header::before,
+  .navbar-header::after,
+  .navbar-collapse::before,
+  .navbar-collapse::after,
+  .pager::before,
+  .pager::after,
+  .panel-body::before,
+  .panel-body::after,
+  .modal-footer::before,
+  .modal-footer::after {
+    display: table;
+    content: " ";
+  }
+  .clearfix::after,
+  .dl-horizontal dd::after,
+  .container::after,
+  .container-fluid::after,
+  .row::after,
+  .form-horizontal .form-group::after,
+  .btn-toolbar::after,
+  .btn-group-vertical > .btn-group::after,
+  .nav::after,
+  .navbar::after,
+  .navbar-header::after,
+  .navbar-collapse::after,
+  .pager::after,
+  .panel-body::after,
+  .modal-footer::after {
+    clear: both;
+  }
+  ul,
+  ol {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  ul.tp-hd-lft {
+    float: left;
+  }
+  ul.tp-hd-lft li {
+    display: inline-block;
+  }
+  li.hm,
+  li.prnt {
+    margin-right: 12px;
+  }
+  a {
+    background-color: transparent;
+  }
+  a:active,
+  a:hover {
+    outline: 0px;
+  }
+  a {
+    color: rgb(51, 122, 183);
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    color: rgb(35, 82, 124);
+    text-decoration: underline;
+  }
+  a:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+  }
+  body a,
+  .grid_1,
+  plan_1,
+  plan_1.one,
+  plan_1.two,
+  i.icon1,
+  i.icon2,
+  i.icon3,
+  i.icon4,
+  i.icon5,
+  i.icon6 {
+    transition: all 0.5s ease 0s;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  ul.tp-hd-lft a {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  i.fa.fa-home {
+    font-size: 24px;
+  }
+  .fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  .fa-home::before {
+    content: "";
+  }
+  ul.tp-hd-rgt {
+    float: right;
+  }
+  ul.tp-hd-rgt li {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  li.ned,
+  li.wrt,
+  li.tol {
+    margin-right: 12px;
+  }
+  ul.tp-hd-rgt a {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  .header {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 10px 0px 8px;
+  }
+  .logo {
+    float: left;
+    margin-right: 60px;
+  }
+  .logo a {
+    color: rgb(63, 132, 177);
+    letter-spacing: 1px;
+    font-size: 2em;
+    font-weight: 400;
+    display: block;
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+  }
+  .logo a {
+    display: block;
+  }
+  .logo span {
+    color: rgb(52, 173, 0);
+  }
+  .lock {
+    float: right;
+    margin-top: 7px;
+  }
+  .lock li {
+    display: inline-block;
+  }
+  i.fa.fa-lock {
+    color: rgb(31, 141, 214);
+    font-size: 2em;
+    padding-right: 10px;
+  }
+  .fa-lock::before {
+    content: "";
+  }
+  .securetxt {
+    color: rgb(31, 141, 214);
+    line-height: 18px;
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .footer-btm {
+    background: rgb(76, 179, 32);
+    padding: 0.5em 0px;
+    text-align: center;
+  }
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  menu,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+  .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+  }
+  .navbar-default {
+    background-color: rgb(248, 248, 248);
+    border-color: rgb(231, 231, 231);
+  }
+  .navbar-default {
+    background-color: rgb(76, 179, 32) !important;
+    border-color: rgb(76, 179, 32) !important;
+  }
+  .navbar {
+    min-height: 0px !important;
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+    border: none !important;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin: 0px;
+    font: inherit;
+    color: inherit;
+  }
+  button {
+    overflow: visible;
+  }
+  button,
+  select {
+    text-transform: none;
+  }
+  input,
+  button,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .navbar-toggle:focus {
+    outline: 0px;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: rgb(221, 221, 221);
+  }
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: rgb(221, 221, 221);
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0px, 0px, 0px, 0px);
+    border: 0px;
+  }
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(136, 136, 136);
+  }
+  .navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+  }
+  .collapse {
+    display: none;
+  }
+  .navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    border-top: 1px solid transparent;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 0px inset;
+  }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border-color: rgb(231, 231, 231);
+  }
+  .navbar-collapse {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .nav {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+  }
+  .navbar-nav {
+    margin: 7.5px -15px;
+  }
+  .nav > li {
+    position: relative;
+    display: block;
+  }
+  .footer-btm li {
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+  }
+  .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+  }
+  .nav > li > a:hover,
+  .nav > li > a:focus {
+    text-decoration: none;
+    background-color: rgb(238, 238, 238);
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: rgb(119, 119, 119);
+  }
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+    color: rgb(51, 51, 51);
+    background-color: transparent;
+  }
+  .footer-btm li a {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 5px 8px;
+  }
+  .footer-btm li a:hover {
+    color: rgb(76, 255, 0);
+  }
+  ul.nav.navbar-nav li a {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 5px 8px;
+  }
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+    color: rgb(76, 255, 0) !important;
+  }
+  .banner-1 {
+    background: url("../images/3.jpg") 0% 0% / cover no-repeat;
+    min-height: 200px;
+  }
+  h1 {
+    margin: 0.67em 0px;
+    font-size: 2em;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  h1,
+  .h1 {
+    font-size: 36px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .banner-1 h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    padding: 1.5em 0px 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .privacy {
+    padding: 5em 0px;
+  }
+  h3,
+  .h3 {
+    font-size: 24px;
+  }
+  .privacy h3 {
+    color: rgb(52, 173, 0);
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-bottom: 1em;
+  }
+  p {
+    margin: 0px 0px 10px;
+  }
+  p {
+    margin: 0px;
+  }
+  .privacy p {
+    font-size: 1em;
+    line-height: 1.8em;
+    color: rgb(153, 153, 153);
+    margin: 1em 0px;
+  }
+  b,
+  strong {
+    font-weight: bold;
+  }
+  input {
+    line-height: normal;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: rgb(85, 85, 85);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  }
+  .form-control:focus {
+    border-color: rgb(102, 175, 233);
+    outline: 0px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset,
+      rgba(102, 175, 233, 0.6) 0px 0px 8px;
+  }
+  textarea {
+    overflow: auto;
+  }
+  textarea.form-control {
+    height: auto;
+  }
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .btn:focus,
+  .btn:active:focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn:active.focus,
+  .btn.active.focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+  }
+  .btn:hover,
+  .btn:focus,
+  .btn.focus {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+  }
+  .btn:active,
+  .btn.active {
+    background-image: none;
+    outline: 0px;
+    box-shadow: rgba(0, 0, 0, 0.125) 0px 3px 5px inset;
+  }
+  .btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 122, 183);
+    border-color: rgb(46, 109, 164);
+  }
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary.focus,
+  .btn-primary:active,
+  .btn-primary.active,
+  .open > .dropdown-toggle.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 96, 144);
+    border-color: rgb(32, 77, 116);
+  }
+  .btn-primary:active,
+  .btn-primary.active,
+  .open > .dropdown-toggle.btn-primary {
+    background-image: none;
+  }
+  .copy-right {
+    background: rgb(52, 173, 0);
+    text-align: center;
+    padding: 0.5em 0px;
+  }
+  .footer-social-icons {
+    margin: 10px 0px;
+  }
+  .footer-social-icons ul li {
+    display: inline-block;
+    margin: 0px 0.2em;
+  }
+  .footer-social-icons ul li a {
+    width: 30px;
+    height: 30px;
+    background: url("../images/img-sprite.png") 0px 0px no-repeat;
+    display: inline-block;
+    position: relative;
+  }
+  .footer-social-icons ul li a.facebook {
+    background-position: 0px 0px;
+  }
+  .footer-social-icons ul li a.facebook:hover {
+    background-position: 0px -30px;
+  }
+  .footer-social-icons ul li a span {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0px;
+    left: -25px;
+    right: -25px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 2px;
+    background: rgb(31, 141, 214);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
+  }
+  .footer-social-icons ul li a span::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgb(31, 141, 214);
+    position: absolute;
+    bottom: -5px;
+    left: 34px;
+  }
+  .footer-social-icons ul li a:hover span {
+    bottom: 41px;
+    visibility: visible;
+    opacity: 1;
+  }
+  .footer-social-icons ul li a.twitter {
+    background-position: -30px 0px;
+  }
+  .footer-social-icons ul li a.twitter:hover {
+    background-position: -30px -30px;
+  }
+  .footer-social-icons ul li a.flickr {
+    background-position: -60px 0px;
+  }
+  .footer-social-icons ul li a.flickr:hover {
+    background-position: -60px -30px;
+  }
+  .footer-social-icons ul li a.googleplus {
+    background-position: -90px 0px;
+  }
+  .footer-social-icons ul li a.googleplus:hover {
+    background-position: -90px -30px;
+  }
+  .footer-social-icons ul li a.dribbble {
+    background-position: -120px 0px;
+  }
+  .footer-social-icons ul li a.dribbble:hover {
+    background-position: -120px -30px;
+  }
+  .copy-right p {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 1.8em;
+  }
+  .fade {
+    opacity: 0;
+    transition: opacity 0.15s linear 0s;
+  }
+  .modal {
+    position: fixed;
+    inset: 0px;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0px;
+  }
+  .modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out 0s;
+    transform: translate(0px, -25%);
+  }
+  .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+  }
+  .modal-content {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    outline: 0px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 9px;
+  }
+  .modal-header {
+    min-height: 16.4286px;
+    padding: 15px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+  }
+  .modal-header {
+    border-bottom: 1px solid rgb(255, 255, 255) !important;
+  }
+  .close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    opacity: 0.2;
+  }
+  .close:hover,
+  .close:focus {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  button.close {
+    appearance: none;
+    padding: 0px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+  }
+  .modal-header .close {
+    margin-top: -2px;
+  }
+  .close {
+    float: right;
+  }
+  .modal-body {
+    position: relative;
+    padding: 15px;
+  }
+  .login-left {
+    float: left;
+    width: 42%;
+  }
+  .login-left ul li {
+    list-style-type: none;
+    display: block;
+    margin: 22px 0px;
+    font-size: 16px;
+  }
+  .login-left ul li a {
+    padding: 9px 12px;
+    display: block;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .login-left ul li a:hover {
+    opacity: 0.7;
+  }
+  .login-left ul li a.fb {
+    background: rgb(59, 89, 152);
+  }
+  .login-left ul li a.fb i {
+    background: url("../images/social.png") -45px -1px no-repeat;
+    width: 24px;
+    height: 23px;
+    display: inline-block;
+    vertical-align: text-bottom;
+  }
+  .login-left ul li a.goog {
+    background: rgb(220, 78, 65);
+  }
+  .login-left ul li a.goog i {
+    background: url("../images/social.png") -84px 0px no-repeat;
+    width: 26px;
+    height: 23px;
+    display: inline-block;
+    vertical-align: text-bottom;
+  }
+  .login-right {
+    float: right;
+    width: 51%;
+  }
+  .login-right h3 {
+    color: rgb(76, 179, 32);
+    font-weight: normal;
+    font-size: 17px;
+  }
+  .login-grids p {
+    font-size: 12px;
+    margin-top: 25px;
+    color: rgb(169, 168, 168);
+  }
+  .login-grids p a {
+    color: rgb(76, 179, 32);
+  }
+  .modal-info {
+    width: 100%;
+  }
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h4,
+  .h4 {
+    font-size: 18px;
+  }
+  .login-right h4 {
+    color: rgb(72, 207, 193);
+    font-size: 12px;
+    margin: 20px 0px;
+  }
+  .login-right h4 a {
+    color: rgb(76, 179, 32);
+    text-decoration: none;
+  }
+  .login-right h4 a:hover {
+    color: rgb(169, 168, 168);
+  }
+  .writ {
+    padding: 0px 2em 3em;
+  }
+  .writ h4 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0.5em;
+    padding: 0px 0px 0.5em;
+    color: rgb(52, 173, 0);
+    font-weight: 600;
+  }
+  .writ li {
+    display: inline-block;
+    margin-top: 1em;
+  }
+  li.na-me {
+    width: 50%;
+  }
+  select {
+    width: 80%;
+    color: rgb(158, 158, 158);
+    margin-top: 18px;
+    border: 1px solid rgb(70, 70, 70);
+    vertical-align: middle;
+    padding: 4px 5px !important;
+  }
+  li.na-me select {
+    width: 92%;
+    color: rgba(158, 158, 158, 0.69);
+    margin-top: 0px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    vertical-align: middle;
+    outline: none;
+    padding: 8px 0px !important;
+  }
+  li.descrip {
+    width: 100%;
+  }
+  .sub-bn {
+    text-align: right;
+    margin-top: 2em;
+  }
+  button.subbtn {
+    font-size: 16px;
+    text-indent: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 173, 0);
+    border: 0px;
+    border-radius: 2px;
+    transition: all 0.2s ease 0s;
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding: 6px 25px !important;
+  }
+  button.subbtn:focus,
+  button.subbtn:hover {
+    background-color: rgb(31, 141, 214);
+    outline: 0px;
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .top-header {
+      height: 62px;
+      line-height: 23px;
+      padding: 0.5em 0px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .top-header {
+      height: 62px;
+      line-height: 23px;
+      padding: 0.5em 0px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    ul.tp-hd-lft {
+      float: left;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 480px) {
+    li.hm,
+    li.prnt {
+      margin-right: 2px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 414px) {
+    ul.tp-hd-lft a {
+      font-size: 11px;
+    }
+  }
+  @media (max-width: 384px) {
+    ul.tp-hd-lft a {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 320px) {
+    ul.tp-hd-lft a {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 384px) {
+    i.fa.fa-home {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 320px) {
+    i.fa.fa-home {
+      font-size: 20px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 480px) {
+    li.hm,
+    li.prnt {
+      margin-right: 2px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 414px) {
+    ul.tp-hd-lft a {
+      font-size: 11px;
+    }
+  }
+  @media (max-width: 384px) {
+    ul.tp-hd-lft a {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 320px) {
+    ul.tp-hd-lft a {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    ul.tp-hd-rgt {
+      float: left;
+      width: 100%;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInRight {
+      animation-name: fadeInRight;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 414px) {
+    ul.tp-hd-rgt li {
+      font-size: 11px;
+    }
+  }
+  @media (max-width: 384px) {
+    ul.tp-hd-rgt li {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 375px) {
+    li.ned,
+    li.wrt,
+    li.tol {
+      margin-right: 6px;
+    }
+  }
+  @media (max-width: 320px) {
+    ul.tp-hd-rgt li {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 320px) {
+    li.ned,
+    li.wrt,
+    li.tol {
+      margin-right: 20px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 414px) {
+    ul.tp-hd-rgt li {
+      font-size: 11px;
+    }
+  }
+  @media (max-width: 384px) {
+    ul.tp-hd-rgt li {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 320px) {
+    ul.tp-hd-rgt li {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 414px) {
+    ul.tp-hd-rgt a {
+      font-size: 11px;
+    }
+  }
+  @media (max-width: 384px) {
+    ul.tp-hd-rgt a {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 320px) {
+    ul.tp-hd-rgt a {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 414px) {
+    ul.tp-hd-rgt li {
+      font-size: 11px;
+    }
+  }
+  @media (max-width: 384px) {
+    ul.tp-hd-rgt li {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 320px) {
+    ul.tp-hd-rgt li {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 414px) {
+    ul.tp-hd-rgt a {
+      font-size: 11px;
+    }
+  }
+  @media (max-width: 384px) {
+    ul.tp-hd-rgt a {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 320px) {
+    ul.tp-hd-rgt a {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .logo {
+      margin-right: 30px;
+    }
+  }
+  @media (max-width: 640px) {
+    .logo {
+      margin-right: 20px;
+    }
+  }
+  @media (max-width: 480px) {
+    .logo {
+      margin-right: 0px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width: 320px) {
+    .logo {
+      margin-bottom: 2px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInDown {
+      animation-name: fadeInDown;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 480px) {
+    .logo a {
+      font-size: 1.7em;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInDown {
+      animation-name: fadeInDown;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 640px) {
+    i.fa.fa-lock {
+      font-size: 1.7em;
+      padding-right: 4px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 640px) {
+    .securetxt {
+      line-height: 17px;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 320px) {
+    .securetxt {
+      line-height: 17px;
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 736px) {
+    .footer-btm {
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    .navbar {
+      display: none;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar {
+      border-radius: 4px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-header {
+      float: left;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-toggle {
+      display: none;
+    }
+  }
+  @media (max-width: 736px) {
+    .navbar-toggle {
+      margin-top: 2px;
+      margin-bottom: 2px;
+      background-color: transparent;
+      background-image: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      margin-right: 0px;
+    }
+  }
+  @media (max-width: 736px) {
+    .navbar-default .navbar-toggle {
+      border-color: rgb(76, 179, 32);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 736px) {
+    .navbar-toggle .icon-bar {
+      width: 26px;
+      height: 3px;
+    }
+  }
+  @media (max-width: 736px) {
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: rgb(255, 255, 255);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 736px) {
+    .navbar-toggle .icon-bar {
+      width: 26px;
+      height: 3px;
+    }
+  }
+  @media (max-width: 736px) {
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: rgb(255, 255, 255);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 736px) {
+    .navbar-toggle .icon-bar {
+      width: 26px;
+      height: 3px;
+    }
+  }
+  @media (max-width: 736px) {
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: rgb(255, 255, 255);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-collapse {
+      width: auto;
+      border-top: 0px;
+      box-shadow: none;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-collapse.collapse {
+      padding-bottom: 0px;
+      display: block !important;
+      height: auto !important;
+      overflow: visible !important;
+    }
+  }
+  @media (max-width: 736px) {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+      border-color: rgb(76, 179, 32);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 736px) {
+    nav.cl-effect-1 {
+      padding: 0em 0px 1em;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav {
+      float: left;
+      margin: 0px;
+    }
+  }
+  @media (max-width: 736px) {
+    .navbar-nav {
+      margin: 7.5px 0px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li {
+      float: left;
+    }
+  }
+  @media (max-width: 1024px) {
+    .footer-btm li {
+      margin: 0px 6px;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 991px) {
+    .footer-btm li {
+      margin: 0px 4px;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 736px) {
+    .footer-btm li {
+      display: block;
+      margin: 10px 0px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  @media (max-width: 1024px) {
+    ul.nav.navbar-nav li a {
+      font-size: 14px;
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 991px) {
+    ul.nav.navbar-nav li a {
+      font-size: 13px;
+      padding: 5px 0px;
+    }
+  }
+  @media (max-width: 736px) {
+    ul.nav.navbar-nav li a {
+      font-size: 15px;
+      padding: 5px 0px;
+      display: block;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li {
+      float: left;
+    }
+  }
+  @media (max-width: 1024px) {
+    .footer-btm li {
+      margin: 0px 6px;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 991px) {
+    .footer-btm li {
+      margin: 0px 4px;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 736px) {
+    .footer-btm li {
+      display: block;
+      margin: 10px 0px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  @media (max-width: 1024px) {
+    ul.nav.navbar-nav li a {
+      font-size: 14px;
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 991px) {
+    ul.nav.navbar-nav li a {
+      font-size: 13px;
+      padding: 5px 0px;
+    }
+  }
+  @media (max-width: 736px) {
+    ul.nav.navbar-nav li a {
+      font-size: 15px;
+      padding: 5px 0px;
+      display: block;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li {
+      float: left;
+    }
+  }
+  @media (max-width: 1024px) {
+    .footer-btm li {
+      margin: 0px 6px;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 991px) {
+    .footer-btm li {
+      margin: 0px 4px;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 736px) {
+    .footer-btm li {
+      display: block;
+      margin: 10px 0px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  @media (max-width: 1024px) {
+    ul.nav.navbar-nav li a {
+      font-size: 14px;
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 991px) {
+    ul.nav.navbar-nav li a {
+      font-size: 13px;
+      padding: 5px 0px;
+    }
+  }
+  @media (max-width: 736px) {
+    ul.nav.navbar-nav li a {
+      font-size: 15px;
+      padding: 5px 0px;
+      display: block;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li {
+      float: left;
+    }
+  }
+  @media (max-width: 1024px) {
+    .footer-btm li {
+      margin: 0px 6px;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 991px) {
+    .footer-btm li {
+      margin: 0px 4px;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 736px) {
+    .footer-btm li {
+      display: block;
+      margin: 10px 0px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  @media (max-width: 1024px) {
+    ul.nav.navbar-nav li a {
+      font-size: 14px;
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 991px) {
+    ul.nav.navbar-nav li a {
+      font-size: 13px;
+      padding: 5px 0px;
+    }
+  }
+  @media (max-width: 736px) {
+    ul.nav.navbar-nav li a {
+      font-size: 15px;
+      padding: 5px 0px;
+      display: block;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li {
+      float: left;
+    }
+  }
+  @media (max-width: 1024px) {
+    .footer-btm li {
+      margin: 0px 6px;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 991px) {
+    .footer-btm li {
+      margin: 0px 4px;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 736px) {
+    .footer-btm li {
+      display: block;
+      margin: 10px 0px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  @media (max-width: 1024px) {
+    ul.nav.navbar-nav li a {
+      font-size: 14px;
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 991px) {
+    ul.nav.navbar-nav li a {
+      font-size: 13px;
+      padding: 5px 0px;
+    }
+  }
+  @media (max-width: 736px) {
+    ul.nav.navbar-nav li a {
+      font-size: 15px;
+      padding: 5px 0px;
+      display: block;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li {
+      float: left;
+    }
+  }
+  @media (max-width: 1024px) {
+    .footer-btm li {
+      margin: 0px 6px;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 991px) {
+    .footer-btm li {
+      margin: 0px 4px;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 736px) {
+    .footer-btm li {
+      display: block;
+      margin: 10px 0px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  @media (max-width: 1024px) {
+    ul.nav.navbar-nav li a {
+      font-size: 14px;
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 991px) {
+    ul.nav.navbar-nav li a {
+      font-size: 13px;
+      padding: 5px 0px;
+    }
+  }
+  @media (max-width: 736px) {
+    ul.nav.navbar-nav li a {
+      font-size: 15px;
+      padding: 5px 0px;
+      display: block;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li {
+      float: left;
+    }
+  }
+  @media (max-width: 1024px) {
+    .footer-btm li {
+      margin: 0px 6px;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 991px) {
+    .footer-btm li {
+      margin: 0px 4px;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 736px) {
+    .footer-btm li {
+      display: block;
+      margin: 10px 0px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  @media (max-width: 1024px) {
+    ul.nav.navbar-nav li a {
+      font-size: 14px;
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 991px) {
+    ul.nav.navbar-nav li a {
+      font-size: 13px;
+      padding: 5px 0px;
+    }
+  }
+  @media (max-width: 736px) {
+    ul.nav.navbar-nav li a {
+      font-size: 15px;
+      padding: 5px 0px;
+      display: block;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 600px) {
+    .banner-1 {
+      min-height: 140px;
+    }
+  }
+  @media (max-width: 320px) {
+    .banner-1 {
+      min-height: 120px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 1024px) {
+    .banner-1 h1,
+    .banner-2 h1,
+    .banner-3 h1 {
+      padding: 1.8em 0px 0px;
+      font-size: 46px;
+    }
+  }
+  @media (max-width: 991px) {
+    .banner-1 h1,
+    .banner-2 h1,
+    .banner-3 h1 {
+      padding: 1.8em 0px 0px;
+      font-size: 43px;
+    }
+  }
+  @media (max-width: 736px) {
+    .banner-1 h1,
+    .banner-2 h1,
+    .banner-3 h1 {
+      padding: 1.5em 0px 0px;
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 667px) {
+    .banner-1 h1,
+    .banner-2 h1,
+    .banner-3 h1 {
+      padding: 1.2em 0px 0px;
+      font-size: 36px;
+    }
+  }
+  @media (max-width: 640px) {
+    .banner-1 h1,
+    .banner-3 h1 {
+      padding: 1.7em 0px 0px;
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 480px) {
+    .banner-1 h1,
+    .banner-2 h1,
+    .banner-3 h1 {
+      font-size: 26px;
+    }
+  }
+  @media (max-width: 320px) {
+    .banner-1 h1,
+    .banner-2 h1,
+    .banner-3 h1 {
+      font-size: 22px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .zoomIn {
+      animation-name: zoomIn;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 1024px) {
+    .privacy {
+      padding: 3em 0px;
+    }
+  }
+  @media (max-width: 414px) {
+    .privacy {
+      padding: 2em 0px;
+    }
+  }
+  @media (max-width: 320px) {
+    .privacy {
+      padding: 1.5em 0px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media print {
+    h2,
+    h3 {
+      break-after: avoid;
+    }
+  }
+  @media (max-width: 414px) {
+    .privacy h3 {
+      margin-bottom: 0em;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInDown {
+      animation-name: fadeInDown;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 991px) {
+    .privacy p {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 480px) {
+    .privacy p {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 414px) {
+    .privacy p {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 320px) {
+    .privacy p {
+      font-size: 13px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 991px) {
+    .privacy p {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 480px) {
+    .privacy p {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 414px) {
+    .privacy p {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 320px) {
+    .privacy p {
+      font-size: 13px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 991px) {
+    .privacy p {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 480px) {
+    .privacy p {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 414px) {
+    .privacy p {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 320px) {
+    .privacy p {
+      font-size: 13px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 991px) {
+    .privacy p {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 480px) {
+    .privacy p {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 414px) {
+    .privacy p {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 320px) {
+    .privacy p {
+      font-size: 13px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 991px) {
+    .privacy p {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 480px) {
+    .privacy p {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 414px) {
+    .privacy p {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 320px) {
+    .privacy p {
+      font-size: 13px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 991px) {
+    .privacy p {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 480px) {
+    .privacy p {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 414px) {
+    .privacy p {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 320px) {
+    .privacy p {
+      font-size: 13px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInDown {
+      animation-name: fadeInDown;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 320px) {
+    .copy-right p {
+      font-size: 13px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .zoomIn {
+      animation-name: zoomIn;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .modal-dialog {
+      width: 600px;
+      margin: 30px auto;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .modal-content {
+      box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 480px) {
+    .login-left {
+      float: none;
+      width: 53%;
+      margin: 0px 0px 2em;
+    }
+  }
+  @media (max-width: 414px) {
+    .login-left {
+      width: 63%;
+    }
+  }
+  @media (max-width: 384px) {
+    .login-left {
+      width: 68%;
+    }
+  }
+  @media (max-width: 375px) {
+    .login-left {
+      width: 71%;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-left {
+      width: 77%;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-left ul li {
+      font-size: 14px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-left ul li {
+      font-size: 14px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 480px) {
+    .login-right {
+      float: none;
+      width: 100%;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media print {
+    h2,
+    h3 {
+      break-after: avoid;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-right input[type="text"],
+    .login-right input[type="password"] {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-right input[type="text"],
+    .login-right input[type="password"] {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-right input[type="text"],
+    .login-right input[type="password"] {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-right input[type="text"],
+    .login-right input[type="password"] {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 414px) {
+    .login-right input[type="submit"] {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-right input[type="submit"] {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .modal-dialog {
+      width: 600px;
+      margin: 30px auto;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .modal-content {
+      box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 480px) {
+    .login-left {
+      float: none;
+      width: 53%;
+      margin: 0px 0px 2em;
+    }
+  }
+  @media (max-width: 414px) {
+    .login-left {
+      width: 63%;
+    }
+  }
+  @media (max-width: 384px) {
+    .login-left {
+      width: 68%;
+    }
+  }
+  @media (max-width: 375px) {
+    .login-left {
+      width: 71%;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-left {
+      width: 77%;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-left ul li {
+      font-size: 14px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-left ul li {
+      font-size: 14px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 480px) {
+    .login-right {
+      float: none;
+      width: 100%;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media print {
+    h2,
+    h3 {
+      break-after: avoid;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-right input[type="text"],
+    .login-right input[type="password"] {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-right input[type="text"],
+    .login-right input[type="password"] {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 414px) {
+    .login-right input[type="submit"] {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 320px) {
+    .login-right input[type="submit"] {
+      font-size: 12px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .modal-dialog {
+      width: 600px;
+      margin: 30px auto;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .modal-content {
+      box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .writ {
+      padding: 0px 1em 1em;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .writ h4 {
+      font-size: 1.4em;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 414px) {
+    li.na-me {
+      width: 100%;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    select {
+      background: rgb(255, 255, 255) !important;
+    }
+  }
+  @media (max-width: 991px) {
+    select {
+      width: 100%;
+    }
+  }
+  @media (max-width: 414px) {
+    li.na-me select {
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (max-width: 414px) {
+    .writ input[type="text"] {
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  

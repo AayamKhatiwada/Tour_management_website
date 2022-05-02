@@ -1,0 +1,169 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>TMS | Admin manage Users</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="manageUser.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+   <div class="page-container">
+   <!--/content-inner-->
+<div class="left-content">
+	   <div class="mother-grid-inner">
+            <!--header start here-->
+				<div class="header-main">
+					<div class="logo-w3-agile">
+								<h1><a href="dashboard.php">Tourism Management System</a></h1>
+							</div>
+						<div class="profile_details w3l">		
+								<ul>
+									<li class="dropdown profile_details_drop">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+											<div class="profile_img">	
+												<span class="prfil-img"><img src="User-icon.png" alt=""> </span> 
+												<div class="user-name">
+													<p>Welcome</p>
+													<span>Administrator</span>
+												</div>
+												<i class="fa fa-angle-down"></i>
+												<i class="fa fa-angle-up"></i>
+												<div class="clearfix"></div>	
+											</div>	
+										</a>
+										<ul class="dropdown-menu drp-mnu">
+											<li> <a href="home.html"><i class="fa fa-sign-out"></i> Logout</a> </li>
+										  </ul>
+									</li>
+								</ul>
+							</div>
+							
+				     <div class="clearfix"> </div>	
+				</div>				     <div class="clearfix"> </div>	
+				</div>
+<!--heder end here-->
+<ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a><i class="fa fa-angle-right"></i>Manage Users</li>
+            </ol>
+<div class="agile-grids">	
+				<!-- tables -->
+				
+				<div class="agile-tables">
+					<div class="w3l-table-info">
+					  <h2>Manage Users</h2>
+					    <table id="table">
+						<thead>
+						  <tr>
+						  <th>#</th>
+							<th>Name</th>
+							<th>Mobile No.</th>
+							<th>Email Id</th>
+							<th>RegDate </th>
+							<th>Updation Date</th>
+						  </tr>
+						</thead>
+						<tbody>
+		
+						  <tr>
+							<td>1</td>
+							<td>Manju Srivatav</td>
+							<td>4456464654</td>
+							<td>manju@gmail.com</td>
+							<td>2020-07-08 12:18:20</td>
+							<td></td>
+						  </tr>
+						 		
+						  <tr>
+							<td>2</td>
+							<td>Kishan</td>
+							<td>9871987979</td>
+							<td>kishan@gmail.com</td>
+							<td>2020-07-08 12:18:56</td>
+							<td></td>
+						  </tr>
+						 		
+						  <tr>
+							<td>3</td>
+							<td>Salvi Chandra</td>
+							<td>1398756416</td>
+							<td>salvi@gmail.com</td>
+							<td>2020-07-08 12:19:20</td>
+							<td></td>
+						  </tr>
+						 		
+						  <tr>
+							<td>4</td>
+							<td>Abir</td>
+							<td>4789756456</td>
+							<td>abir@gmail.com</td>
+							<td>2020-07-08 12:19:38</td>
+							<td></td>
+						  </tr>
+						 		
+						  <tr>
+							<td>5</td>
+							<td>Test</td>
+							<td>1987894654</td>
+							<td>anuj@gmail.com</td>
+							<td>2020-07-08 12:20:06</td>
+							<td>2021-05-11 10:22:41</td>
+						  </tr>
+						 						</tbody>
+					  </table>
+					</div>
+				  </table>
+
+				
+			</div>
+<!-- script-for sticky-nav -->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header-main").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header-main").addClass("fixed");
+				}else{
+					$(".header-main").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		<!-- /script-for sticky-nav -->
+<!--inner block start here-->
+
+</div>
+			<!--/sidebar-menu-->
+			<div class="sidebar-menu">
+				<header class="logo1">
+				  <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> 
+				</header>
+				  <div style="border-top:1px ridge rgba(255, 255, 255, 0.15)"></div>
+								 <div class="menu">
+						<ul id="menu" >
+						  <li><a href="dashboard.html"><i class="fa fa-tachometer"></i> <span>Dashboard</span><div class="clearfix"></div></a></li>
+						  
+						 <li id="menu-academico" ><a href="#"><i class="fa fa-list-ul" aria-hidden="true"></i><span> Tour Packages</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
+							 <ul id="menu-academico-sub" >
+							 <li id="menu-academico-avaliacoes" ><a href="createPackages.html">Create</a></li>
+							<li id="menu-academico-avaliacoes" ><a href="managePackages.html">Manage</a></li>
+							</ul>
+						  </li>
+						<li id="menu-academico" ><a href="manageUser.html"><i class="fa fa-users" aria-hidden="true"></i><span>Manage Users</span><div class="clearfix"></div></a></li>
+						
+						<li><a href="manageBooking.html"><i class="fa fa-list" aria-hidden="true"></i>  <span>Manage Booking</span><div class="clearfix"></div></a></li>
+						<li><a href="manageEnquiry.html"><i class="fa fa-file-text-o" aria-hidden="true"></i>  <span>Manage Enquiries</span><div class="clearfix"></div></a></li>
+						 
+						
+						</ul>
+					  </div>
+					  </div>	
+					</div>
+</body>
+</html>
