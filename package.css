@@ -1,70 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
-:root {
-    --orange: #3dd164;
-}
-
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+  box-sizing: border-box;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 .banner {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .navbar {
-    width: 90%;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 90%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-    width: 100px;
-    cursor: pointer;
+  width: 100px;
+  cursor: pointer;
 }
 
 .navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 5px;
-    position: relative;
+  list-style: none;
+  display: inline-block;
+  margin: 0 5px;
+  position: relative;
 }
 
 .navbar ul li a {
-    text-decoration: none;
-    color: #000000;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .navbar ul li::after {
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #66CDAA;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #66CDAA;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
 }
 
 .navbar ul li:hover:after {
-    width: 100%;
+  width: 100%;
 }
 
 .h {
-    width: 90%;
-    height: 5px;
-    border: 0 none;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #66CDAA;
+  width: 90%;
+  height: 5px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #66CDAA;
 }
+
+
   .container {
     padding-right: 15px;
     padding-left: 15px;
