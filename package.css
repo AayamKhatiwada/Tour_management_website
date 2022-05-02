@@ -1,0 +1,4275 @@
+* {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #66CDAA;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+}
+
+.h {
+    width: 100%;
+    height: 5px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #66CDAA;
+}
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .clearfix::before,
+  .clearfix::after,
+  .dl-horizontal dd::before,
+  .dl-horizontal dd::after,
+  .container::before,
+  .container::after,
+  .container-fluid::before,
+  .container-fluid::after,
+  .row::before,
+  .row::after,
+  .form-horizontal .form-group::before,
+  .form-horizontal .form-group::after,
+  .btn-toolbar::before,
+  .btn-toolbar::after,
+  .btn-group-vertical > .btn-group::before,
+  .btn-group-vertical > .btn-group::after,
+  .nav::before,
+  .nav::after,
+  .navbar::before,
+  .navbar::after,
+  .navbar-header::before,
+  .navbar-header::after,
+  .navbar-collapse::before,
+  .navbar-collapse::after,
+  .pager::before,
+  .pager::after,
+  .panel-body::before,
+  .panel-body::after,
+  .modal-footer::before,
+  .modal-footer::after {
+    display: table;
+    content: " ";
+  }
+  .clearfix::after,
+  .dl-horizontal dd::after,
+  .container::after,
+  .container-fluid::after,
+  .row::after,
+  .form-horizontal .form-group::after,
+  .btn-toolbar::after,
+  .btn-group-vertical > .btn-group::after,
+  .nav::after,
+  .navbar::after,
+  .navbar-header::after,
+  .navbar-collapse::after,
+  .pager::after,
+  .panel-body::after,
+  .modal-footer::after {
+    clear: both;
+  }
+  .room-bottom {
+    padding: 2em 0px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  h3,
+  .h3 {
+    font-size: 24px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .room-bottom h3 {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: rgb(52, 173, 0);
+  }
+  .rom-btm {
+    margin-top: 2em;
+    box-shadow: rgba(0, 0, 0, 0.37) 0px 0px 5px -1px;
+  }
+  .col-xs-1,
+  .col-sm-1,
+  .col-md-1,
+  .col-lg-1,
+  .col-xs-2,
+  .col-sm-2,
+  .col-md-2,
+  .col-lg-2,
+  .col-xs-3,
+  .col-sm-3,
+  .col-md-3,
+  .col-lg-3,
+  .col-xs-4,
+  .col-sm-4,
+  .col-md-4,
+  .col-lg-4,
+  .col-xs-5,
+  .col-sm-5,
+  .col-md-5,
+  .col-lg-5,
+  .col-xs-6,
+  .col-sm-6,
+  .col-md-6,
+  .col-lg-6,
+  .col-xs-7,
+  .col-sm-7,
+  .col-md-7,
+  .col-lg-7,
+  .col-xs-8,
+  .col-sm-8,
+  .col-md-8,
+  .col-lg-8,
+  .col-xs-9,
+  .col-sm-9,
+  .col-md-9,
+  .col-lg-9,
+  .col-xs-10,
+  .col-sm-10,
+  .col-md-10,
+  .col-lg-10,
+  .col-xs-11,
+  .col-sm-11,
+  .col-md-11,
+  .col-lg-11,
+  .col-xs-12,
+  .col-sm-12,
+  .col-md-12,
+  .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  img {
+    border: 0px;
+  }
+  img {
+    vertical-align: middle;
+  }
+  .img-responsive,
+  .thumbnail > img,
+  .thumbnail a > img,
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .room-midle {
+    padding: 1em;
+  }
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h4,
+  .h4 {
+    font-size: 18px;
+  }
+  .rom-btm h4 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(52, 173, 0);
+  }
+  h6,
+  .h6 {
+    font-size: 12px;
+  }
+  .rom-btm h6 {
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0.5em 0px;
+  }
+  p {
+    margin: 0px 0px 10px;
+  }
+  p {
+    margin: 0px;
+  }
+  .rom-btm p {
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+  }
+  b,
+  strong {
+    font-weight: bold;
+  }
+  .room-right {
+    text-align: right;
+    padding: 3em 2em;
+  }
+  h5,
+  .h5 {
+    font-size: 14px;
+  }
+  .rom-btm h5 {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(153, 153, 153);
+  }
+  a {
+    background-color: transparent;
+  }
+  a:active,
+  a:hover {
+    outline: 0px;
+  }
+  a {
+    color: rgb(51, 122, 183);
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    color: rgb(35, 82, 124);
+    text-decoration: underline;
+  }
+  a:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+  }
+  body a,
+  .grid_1,
+  plan_1,
+  plan_1.one,
+  plan_1.two,
+  i.icon1,
+  i.icon2,
+  i.icon3,
+  i.icon4,
+  i.icon5,
+  i.icon6 {
+    transition: all 0.5s ease 0s;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a.view {
+    padding: 6px 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 173, 0);
+    border: 0px;
+    font-size: 13px;
+    border-radius: 2px;
+    transition: all 0.2s ease 0s;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media print {
+    h2,
+    h3 {
+      break-after: avoid;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-left {
+      float: left;
+      width: 30%;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-left {
+      width: 29%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-left {
+      width: 27%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-left {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    tr,
+    img {
+      break-inside: avoid;
+    }
+  }
+  @media print {
+    img {
+      max-width: 100% !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-midle {
+      padding: 0.5em;
+      float: left;
+      width: 51%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-midle {
+      width: 50%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-midle {
+      width: 100%;
+      padding-left: 12px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInUp {
+      animation-name: fadeInUp;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-right {
+      padding: 2em 1em;
+      float: left;
+      width: 19%;
+    }
+  }
+  @media (max-width: 736px) {
+    .room-right {
+      padding: 2em 0.5em;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-right {
+      width: 20%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-right {
+      width: 22%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-right {
+      width: 23%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-right {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInRight {
+      animation-name: fadeInRight;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 568px) {
+    a.view {
+      padding: 6px 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    a.view {
+      padding: 5px 8px;
+      margin-top: 6px;
+    }
+  }
+  @media (max-width: 414px) {
+    a.view {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 375px) {
+    a.view {
+      padding: 5px 6px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-left {
+      float: left;
+      width: 30%;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-left {
+      width: 29%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-left {
+      width: 27%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-left {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    tr,
+    img {
+      break-inside: avoid;
+    }
+  }
+  @media print {
+    img {
+      max-width: 100% !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-midle {
+      padding: 0.5em;
+      float: left;
+      width: 51%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-midle {
+      width: 50%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-midle {
+      width: 100%;
+      padding-left: 12px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInUp {
+      animation-name: fadeInUp;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-right {
+      padding: 2em 1em;
+      float: left;
+      width: 19%;
+    }
+  }
+  @media (max-width: 736px) {
+    .room-right {
+      padding: 2em 0.5em;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-right {
+      width: 20%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-right {
+      width: 22%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-right {
+      width: 23%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-right {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInRight {
+      animation-name: fadeInRight;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 568px) {
+    a.view {
+      padding: 6px 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    a.view {
+      padding: 5px 8px;
+      margin-top: 6px;
+    }
+  }
+  @media (max-width: 414px) {
+    a.view {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 375px) {
+    a.view {
+      padding: 5px 6px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-left {
+      float: left;
+      width: 30%;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-left {
+      width: 29%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-left {
+      width: 27%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-left {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    tr,
+    img {
+      break-inside: avoid;
+    }
+  }
+  @media print {
+    img {
+      max-width: 100% !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-midle {
+      padding: 0.5em;
+      float: left;
+      width: 51%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-midle {
+      width: 50%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-midle {
+      width: 100%;
+      padding-left: 12px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInUp {
+      animation-name: fadeInUp;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-right {
+      padding: 2em 1em;
+      float: left;
+      width: 19%;
+    }
+  }
+  @media (max-width: 736px) {
+    .room-right {
+      padding: 2em 0.5em;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-right {
+      width: 20%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-right {
+      width: 22%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-right {
+      width: 23%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-right {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInRight {
+      animation-name: fadeInRight;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 568px) {
+    a.view {
+      padding: 6px 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    a.view {
+      padding: 5px 8px;
+      margin-top: 6px;
+    }
+  }
+  @media (max-width: 414px) {
+    a.view {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 375px) {
+    a.view {
+      padding: 5px 6px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-left {
+      float: left;
+      width: 30%;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-left {
+      width: 29%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-left {
+      width: 27%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-left {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    tr,
+    img {
+      break-inside: avoid;
+    }
+  }
+  @media print {
+    img {
+      max-width: 100% !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-midle {
+      padding: 0.5em;
+      float: left;
+      width: 51%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-midle {
+      width: 50%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-midle {
+      width: 100%;
+      padding-left: 12px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInUp {
+      animation-name: fadeInUp;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-right {
+      padding: 2em 1em;
+      float: left;
+      width: 19%;
+    }
+  }
+  @media (max-width: 736px) {
+    .room-right {
+      padding: 2em 0.5em;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-right {
+      width: 20%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-right {
+      width: 22%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-right {
+      width: 23%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-right {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInRight {
+      animation-name: fadeInRight;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 568px) {
+    a.view {
+      padding: 6px 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    a.view {
+      padding: 5px 8px;
+      margin-top: 6px;
+    }
+  }
+  @media (max-width: 414px) {
+    a.view {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 375px) {
+    a.view {
+      padding: 5px 6px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-left {
+      float: left;
+      width: 30%;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-left {
+      width: 29%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-left {
+      width: 27%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-left {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    tr,
+    img {
+      break-inside: avoid;
+    }
+  }
+  @media print {
+    img {
+      max-width: 100% !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-midle {
+      padding: 0.5em;
+      float: left;
+      width: 51%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-midle {
+      width: 50%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-midle {
+      width: 100%;
+      padding-left: 12px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInUp {
+      animation-name: fadeInUp;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-right {
+      padding: 2em 1em;
+      float: left;
+      width: 19%;
+    }
+  }
+  @media (max-width: 736px) {
+    .room-right {
+      padding: 2em 0.5em;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-right {
+      width: 20%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-right {
+      width: 22%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-right {
+      width: 23%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-right {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInRight {
+      animation-name: fadeInRight;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 568px) {
+    a.view {
+      padding: 6px 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    a.view {
+      padding: 5px 8px;
+      margin-top: 6px;
+    }
+  }
+  @media (max-width: 414px) {
+    a.view {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 375px) {
+    a.view {
+      padding: 5px 6px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-left {
+      float: left;
+      width: 30%;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-left {
+      width: 29%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-left {
+      width: 27%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-left {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    tr,
+    img {
+      break-inside: avoid;
+    }
+  }
+  @media print {
+    img {
+      max-width: 100% !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-midle {
+      padding: 0.5em;
+      float: left;
+      width: 51%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-midle {
+      width: 50%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-midle {
+      width: 100%;
+      padding-left: 12px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInUp {
+      animation-name: fadeInUp;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-right {
+      padding: 2em 1em;
+      float: left;
+      width: 19%;
+    }
+  }
+  @media (max-width: 736px) {
+    .room-right {
+      padding: 2em 0.5em;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-right {
+      width: 20%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-right {
+      width: 22%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-right {
+      width: 23%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-right {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInRight {
+      animation-name: fadeInRight;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 568px) {
+    a.view {
+      padding: 6px 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    a.view {
+      padding: 5px 8px;
+      margin-top: 6px;
+    }
+  }
+  @media (max-width: 414px) {
+    a.view {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 375px) {
+    a.view {
+      padding: 5px 6px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-left {
+      float: left;
+      width: 30%;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-left {
+      width: 29%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-left {
+      width: 27%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-left {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    tr,
+    img {
+      break-inside: avoid;
+    }
+  }
+  @media print {
+    img {
+      max-width: 100% !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-midle {
+      padding: 0.5em;
+      float: left;
+      width: 51%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-midle {
+      width: 50%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-midle {
+      width: 100%;
+      padding-left: 12px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInUp {
+      animation-name: fadeInUp;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-right {
+      padding: 2em 1em;
+      float: left;
+      width: 19%;
+    }
+  }
+  @media (max-width: 736px) {
+    .room-right {
+      padding: 2em 0.5em;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-right {
+      width: 20%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-right {
+      width: 22%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-right {
+      width: 23%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-right {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInRight {
+      animation-name: fadeInRight;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 568px) {
+    a.view {
+      padding: 6px 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    a.view {
+      padding: 5px 8px;
+      margin-top: 6px;
+    }
+  }
+  @media (max-width: 414px) {
+    a.view {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 375px) {
+    a.view {
+      padding: 5px 6px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-left {
+      float: left;
+      width: 30%;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-left {
+      width: 29%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-left {
+      width: 27%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-left {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    tr,
+    img {
+      break-inside: avoid;
+    }
+  }
+  @media print {
+    img {
+      max-width: 100% !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-midle {
+      padding: 0.5em;
+      float: left;
+      width: 51%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-midle {
+      width: 50%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-midle {
+      width: 100%;
+      padding-left: 12px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInUp {
+      animation-name: fadeInUp;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-right {
+      padding: 2em 1em;
+      float: left;
+      width: 19%;
+    }
+  }
+  @media (max-width: 736px) {
+    .room-right {
+      padding: 2em 0.5em;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-right {
+      width: 20%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-right {
+      width: 22%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-right {
+      width: 23%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-right {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInRight {
+      animation-name: fadeInRight;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 568px) {
+    a.view {
+      padding: 6px 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    a.view {
+      padding: 5px 8px;
+      margin-top: 6px;
+    }
+  }
+  @media (max-width: 414px) {
+    a.view {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 375px) {
+    a.view {
+      padding: 5px 6px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-left {
+      float: left;
+      width: 30%;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-left {
+      width: 29%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-left {
+      width: 27%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-left {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    tr,
+    img {
+      break-inside: avoid;
+    }
+  }
+  @media print {
+    img {
+      max-width: 100% !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-midle {
+      padding: 0.5em;
+      float: left;
+      width: 51%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-midle {
+      width: 50%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-midle {
+      width: 100%;
+      padding-left: 12px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInUp {
+      animation-name: fadeInUp;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-right {
+      padding: 2em 1em;
+      float: left;
+      width: 19%;
+    }
+  }
+  @media (max-width: 736px) {
+    .room-right {
+      padding: 2em 0.5em;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-right {
+      width: 20%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-right {
+      width: 22%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-right {
+      width: 23%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-right {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInRight {
+      animation-name: fadeInRight;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 568px) {
+    a.view {
+      padding: 6px 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    a.view {
+      padding: 5px 8px;
+      margin-top: 6px;
+    }
+  }
+  @media (max-width: 414px) {
+    a.view {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 375px) {
+    a.view {
+      padding: 5px 6px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-left {
+      float: left;
+      width: 30%;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-left {
+      width: 29%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-left {
+      width: 27%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-left {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInLeft {
+      animation-name: fadeInLeft;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    tr,
+    img {
+      break-inside: avoid;
+    }
+  }
+  @media print {
+    img {
+      max-width: 100% !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-midle {
+      padding: 0.5em;
+      float: left;
+      width: 51%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-midle {
+      width: 50%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-midle {
+      width: 100%;
+      padding-left: 12px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInUp {
+      animation-name: fadeInUp;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+  @media (max-width: 480px) {
+    .rom-btm p {
+      font-size: 14px;
+      color: rgb(153, 153, 153);
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      float: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-md-3 {
+      width: 25%;
+    }
+  }
+  @media (max-width: 991px) {
+    .room-right {
+      padding: 2em 1em;
+      float: left;
+      width: 19%;
+    }
+  }
+  @media (max-width: 736px) {
+    .room-right {
+      padding: 2em 0.5em;
+    }
+  }
+  @media (max-width: 667px) {
+    .room-right {
+      width: 20%;
+    }
+  }
+  @media (max-width: 640px) {
+    .room-right {
+      width: 22%;
+    }
+  }
+  @media (max-width: 480px) {
+    .room-right {
+      width: 23%;
+    }
+  }
+  @media (max-width: 414px) {
+    .room-right {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  @media all {
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  }
+  @media all {
+    .fadeInRight {
+      animation-name: fadeInRight;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  @media print {
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 568px) {
+    a.view {
+      padding: 6px 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    a.view {
+      padding: 5px 8px;
+      margin-top: 6px;
+    }
+  }
+  @media (max-width: 414px) {
+    a.view {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 384px) {
+    a.view {
+      padding: 5px 7px;
+    }
+  }
+  @media (max-width: 375px) {
+    a.view {
+      padding: 5px 6px;
+    }
+  }
+  @media print {
+    *,
+    ::before,
+    ::after {
+      color: rgb(0, 0, 0) !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+  
