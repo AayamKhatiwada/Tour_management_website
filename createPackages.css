@@ -228,7 +228,7 @@ html {
     margin-top: 0.3em;
   }
   i.fa.fa-angle-down {
-    color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0);
   }
   .profile_details li a i.fa {
     position: absolute;
