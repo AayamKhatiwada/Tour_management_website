@@ -1,3 +1,7 @@
+<?php 
+    include("connection.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -24,10 +28,10 @@
             </form>
         </div>
         <div class="form-container sign-in-container">
-            <form action="#">
+            <form action="#" method="POST">
                 <h1>Login</h1>
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
+                <input type="email" placeholder="Email" name="email"/>
+                <input type="password" placeholder="Password" name="password" />
                 <a href="#">Forgot your password</a>
                 <button>Login</button>
             </form>
@@ -47,5 +51,20 @@
             </div>
         </div>
     </div>
+
+    <?php
+        if (isset($_POST['Signin'])){
+            $query= "SELECT * FROM `user` WHERE email = '$_POST[email]' AND password='$_POST[password]'";
+            $result = mysqli_query($con,$query);
+            if(mysqli_num_rows($result)==NULL){
+                echo 'incorrect';
+            }
+            else{
+                header("location: home.html");
+            }
+        }
+
+     ?>
+
 </body>
 </head>

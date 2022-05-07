@@ -69,7 +69,7 @@
 .section {
     width: 100%;
     min-height: 100vh;
-    background-color: #E7F5E0;
+    background-color: #ffffff;
 }
 
 .container {
@@ -126,8 +126,8 @@
 }
 
 .content-section .content .button a:hover {
-    background-color: #a52a2a;
-    color: #fff;
+    background-color: #fc9e9e;
+    color: rgb(255, 0, 0);
 }
 
 .content-section .social {
@@ -135,13 +135,13 @@
 }
 
 .content-section .social i {
-    color: #a52a2a;
+    color: #f28b8b;
     font-size: 30px;
     padding: 0px 10px;
 }
 
 .content-section .social i:hover {
-    color: #ffffff;
+    color: #ff0000;
 }
 
 @media screen and (max-width: 768px) {

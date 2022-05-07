@@ -46,7 +46,7 @@
     content: '';
     height: 3px;
     width: 0;
-    background: #3dd164;
+    background: #66CDAA;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -63,7 +63,7 @@
     border: 0 none;
     margin-right: auto;
     margin-left: auto;
-    background-color: #3dd164;
+    background-color: #66CDAA;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
@@ -104,13 +104,13 @@ textarea {
 }
 
 .contact-form {
-    background-color: #3dd164;
+    background-color: #66CDAA;
     position: relative;
 }
 
 .circle {
     border-radius: 50%;
-    background: linear-gradient(135deg, transparent 20%, #3dd164);
+    background: linear-gradient(135deg, transparent 20%, #66CDAA);
     position: absolute;
 }
 
@@ -133,7 +133,7 @@ textarea {
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color: #3dd164;
+    background-color: #66CDAA;
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
@@ -239,7 +239,7 @@ textarea.input {
     opacity: 0;
     transition: 0.3s;
     height: 5px;
-    background-color: #3dd164;
+    background-color: #66CDAA;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -309,7 +309,7 @@ textarea.input {
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #3dd164, #3dd164);
+    background: linear-gradient(45deg, #66CDAA, #66CDAA);
     color: #fff;
     text-align: center;
     line-height: 35px;
@@ -326,7 +326,7 @@ textarea.input {
     position: absolute;
     width: 110px;
     height: 100px;
-    border: 22px solid #3dd164;
+    border: 22px solid #66CDAA;
     border-radius: 50%;
     bottom: -77px;
     right: 50px;
@@ -338,7 +338,7 @@ textarea.input {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #3dd164, #3dd164);
+    background: linear-gradient(to bottom, #66CDAA, #66CDAA);
     bottom: 50%;
     right: 50%;
     transform: translate(-40%, 38%);
