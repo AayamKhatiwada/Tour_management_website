@@ -1,5 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+    include("connection.php");
+?>
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -12,34 +14,50 @@
 <body>
     <div class="container" id="container">
         <div class="form-container sign-in-container">
-            <form action="#">
+            <form method="POST">
                 <h1 style="margin: 15px">Sign Up</h1>
                 <label for="email"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="email" required>
+                <input type="text" placeholder="Enter Username" name="username" required>
 
                 <label for="psw"><b>Email</b></label>
-                <input type="password" placeholder="Enter Email" name="psw" required>
+                <input type="email" placeholder="Enter Email" name="email" required>
 
                 <label for="psw"><b>Phone number</b></label>
-                <input type="password" placeholder="Enter Phone no." name="psw" required>
+                <input type="text" placeholder="Enter Phone no." name="phoneno" required>
 
                 <label for="psw"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" required>
-
-                <label for="psw-repeat"><b>Repeat Password</b></label>
-                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
                 <label>
                  <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
                 </label>
                 <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
                 <div class="clearfix">
-                    <button type="button" class="cancelbtn" style="margin:5px;"><a href=#>Sign Up</a></button>
+                    <button type="submit" class="signupbtn" style="margin:5px;" name="submit"><a> Sign Up</a></button>
                     <button type="submit" class="signupbtn"><a href="home.html">Cancel</a></button>
                 </div>
 
             </form>
+            <?php
+        if (isset($_POST['submit'])){
+            $name=$_POST['username'];
+            $email=$_POST['email'];
+            $phoneno=$_POST['phoneno'];
+            $password=$_POST['psw'];
+
+            $query= "INSERT INTO user(username, email, phoneno, password) VALUES ('$name','$email','$phoneno','$password')";
+            if (mysqli_query($con,$query)){
+                echo "<script>alert('Data has been inserted')</script>";
+            }
+            else{
+                echo "<script>alert('Data is not inserted')</script>";
+            }
+
+        }
+
+     ?>
         </div>
+
 </body>
 
 </html>
