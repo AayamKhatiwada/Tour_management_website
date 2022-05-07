@@ -1,7 +1,4 @@
-html {
-    font-family: sans-serif;
-    text-size-adjust: 100%;
-  }
+
   * {
     box-sizing: border-box;
   }
@@ -11,6 +8,7 @@ html {
   }
   html,
   body {
+    
     font-size: 100%;
     background: rgb(255, 255, 255);
     font-family: "Open Sans", sans-serif;
@@ -25,6 +23,75 @@ html {
     color: rgb(51, 51, 51);
     background-color: rgb(255, 255, 255);
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+:root {
+    --orange: #3dd164;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #66CDAA;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+}
+
+.h {
+    width: 90%;
+    height: 5px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #66CDAA;
+}
+
   .top-header {
     background-color: rgb(63, 132, 177);
     border-bottom: 0px none;
