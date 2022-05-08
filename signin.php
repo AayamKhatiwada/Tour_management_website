@@ -33,7 +33,7 @@
                 <input type="email" placeholder="Email" name="email"/>
                 <input type="password" placeholder="Password" name="password" />
                 <a href="#">Forgot your password</a>
-                <button>Login</button>
+                <button name="Signin" Type="Signin">Login</button>
             </form>
         </div>
         <div class="overlay-container">
@@ -57,7 +57,7 @@
             $query= "SELECT * FROM `user` WHERE email = '$_POST[email]' AND password='$_POST[password]'";
             $result = mysqli_query($con,$query);
             if(mysqli_num_rows($result)==NULL){
-                echo 'incorrect';
+                echo "<script>alert('Incorrect email and password')</script>";
             }
             else{
                 header("location: home.html");

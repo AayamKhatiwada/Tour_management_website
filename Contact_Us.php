@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
@@ -12,12 +13,12 @@
             <ul>
                 <li><a href="home.html">Home </a></li>
                 <li><a href="aboutus.html">About us</a></li>
-                <li><a href="package.html">Tour package</a></li>
-                <li><a href="enquiry.html">Enquiries</a></li>
-                <li><a href="Contact_Us.html">Contact us</a></li>
+                <li><a href="package.php">Tour package</a></li>
+                <li><a href="enquiry.php">Enquiries</a></li>
+                <li><a href="Contact_Us.php">Contact us</a></li>
             </ul>
             <ul>
-                <li><a href="signin.html">Sign up/login</a></li>
+                <li><a href="signin.php">Sign up/login</a></li>
                 <li><a href="admin.php">Admin</a></li>
             </ul>
         </div>
@@ -88,16 +89,29 @@
                 <span class="circle one"></span>
                 <span class="circle two"></span>
 
-                <form action="index.html" autocomplete="off">
+                <form autocomplete="off" method="POST">
                     <h3 class="title">Contact us</h3>
 
                     <div class="input-container textarea">
-                        <textarea name="message" class="input"></textarea>
-                        <label for="">Message</label>
-                        <span>Message</span>
+                        <textarea name="message" class="input" placeholder="message"></textarea>
                     </div>
-                    <input type="submit" value="Send" class="btn" />
+                    <input type="submit" value="Send" class="btn" name="submit"/>
                 </form>
+        <?php
+        include("connection.php");
+        if (isset($_POST['submit'])){
+            $description=$_POST['message'];
+            $query= "INSERT INTO enquiry(description) VALUES ('$description')";
+            if (mysqli_query($con,$query)){
+                echo "<script>alert('Your message has been submitted')</script>";
+            }
+            else{
+                echo "<script>alert('Your message has not been submitted')</script>";
+            }
+
+        }
+
+     ?>
             </div>
         </div>
     </div>

@@ -1,4 +1,8 @@
-
+<?php 
+    include("connection.php");
+    $query="SELECT * FROM user";
+    $result=mysqli_query($con,$query);
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -58,60 +62,26 @@
 					    <table id="table">
 						<thead>
 						  <tr>
-						  <th>#</th>
+						  <th>S no.</th>
 							<th>Name</th>
-							<th>Mobile No.</th>
-							<th>Email Id</th>
-							<th>RegDate </th>
-							<th>Updation Date</th>
+							<th>Email id</th>
+							<th>Phone number</th>
+
 						  </tr>
 						</thead>
 						<tbody>
-		
+						<?php
+						while($rows = mysqli_fetch_array($result)){?>
 						  <tr>
-							<td>1</td>
-							<td>Manju Srivatav</td>
-							<td>4456464654</td>
-							<td>manju@gmail.com</td>
-							<td>2020-07-08 12:18:20</td>
+							<td><?php echo $rows[0];?></td>
+							<td><?php echo $rows[1];?></td>
+							<td><?php echo $rows[2];?></td>
+							<td><?php echo $rows[3];?></td>
 							<td></td>
 						  </tr>
-						 		
-						  <tr>
-							<td>2</td>
-							<td>Kishan</td>
-							<td>9871987979</td>
-							<td>kishan@gmail.com</td>
-							<td>2020-07-08 12:18:56</td>
-							<td></td>
-						  </tr>
-						 		
-						  <tr>
-							<td>3</td>
-							<td>Salvi Chandra</td>
-							<td>1398756416</td>
-							<td>salvi@gmail.com</td>
-							<td>2020-07-08 12:19:20</td>
-							<td></td>
-						  </tr>
-						 		
-						  <tr>
-							<td>4</td>
-							<td>Abir</td>
-							<td>4789756456</td>
-							<td>abir@gmail.com</td>
-							<td>2020-07-08 12:19:38</td>
-							<td></td>
-						  </tr>
-						 		
-						  <tr>
-							<td>5</td>
-							<td>Test</td>
-							<td>1987894654</td>
-							<td>anuj@gmail.com</td>
-							<td>2020-07-08 12:20:06</td>
-							<td>2021-05-11 10:22:41</td>
-						  </tr>
+						  <?php
+              				}
+              				?>
 						 						</tbody>
 					  </table>
 					</div>

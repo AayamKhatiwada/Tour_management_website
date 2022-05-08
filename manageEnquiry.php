@@ -1,3 +1,8 @@
+<?php 
+    include("connection.php");
+    $query="SELECT * FROM enquiry";
+    $result=mysqli_query($con,$query);
+?>
 <html style="overflow: hidden;">
 
 <head>
@@ -98,18 +103,6 @@
                     </span></td>
                 </tr>
 
-                <tr>
-                  <td width="120" data-th="Ticket id"><span class="bt-content">#TCKT-3</span></td>
-                  <td width="50" data-th="Name"><span class="bt-content">Jacaob</span></td>
-                  <td width="50" data-th="Mobile No./ Email"><span class="bt-content">1646689721 /<br>
-                      Jai@gmail.com</span></td>
-
-                  <td width="200" data-th="Subject "><span class="bt-content">Any offer for North</span></td>
-                  <td width="400" data-th="Description "><span class="bt-content">Any Offer for north</span></td>
-
-                  <td width="50" data-th="Posting date "><span class="bt-content">2020-07-08 12:17:41</span></td>
-                  <td data-th="Action "><span class="bt-content">Read</span></td>
-                </tr>
               </tbody>
             </table>
           </div>

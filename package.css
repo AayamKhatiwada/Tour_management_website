@@ -165,7 +165,7 @@
   .room-bottom h3 {
     font-size: 1.8em;
     font-weight: 700;
-    color: rgb(52, 173, 0);
+    color: #66CDAA;
   }
   .rom-btm {
     margin-top: 2em;
@@ -258,7 +258,7 @@
   .rom-btm h4 {
     font-size: 1.5em;
     font-weight: 700;
-    color: rgb(52, 173, 0);
+    color: #66CDAA;
   }
   h6,
   .h6 {
@@ -336,7 +336,7 @@
     padding: 6px 18px;
     font-weight: 700;
     color: rgb(255, 255, 255);
-    background-color: rgb(52, 173, 0);
+    background-color: #66CDAA;
     border: 0px;
     font-size: 13px;
     border-radius: 2px;

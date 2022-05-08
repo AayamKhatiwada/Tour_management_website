@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -17,12 +16,12 @@
             <ul>
                 <li><a href="home.html">Home </a></li>
                 <li><a href="aboutus.html">About us</a></li>
-                <li><a href="package.html">Tour package</a></li>
-                <li><a href="enquiry.html">Enquiries</a></li>
-                <li><a href="Contact_Us.html">Contact us</a></li>
+                <li><a href="package.php">Tour package</a></li>
+                <li><a href="enquiry.php">Enquiries</a></li>
+                <li><a href="Contact_Us.php">Contact us</a></li>
             </ul>
             <ul>
-                <li><a href="signin.html">Sign up/login</a></li>
+                <li><a href="signin.php">Sign up/login</a></li>
                 <li><a href="admin.php">Admin</a></li>
             </ul>
         </div>
@@ -55,12 +54,33 @@
 	</p> 
 
 			<p style="width: 350px;">
-<button type="submit" name="submit1" class="btn-primary btn">Submit</button>
+<button type="submit" name="submit" class="btn-primary btn">Submit</button>
 			</p>
 			</form>
 
 		
 	</div>
 </div>
+
+<?php
+		include("connection.php");
+        if (isset($_POST['submit'])){
+            $name=$_POST['fname'];
+            $email=$_POST['email'];
+            $phoneno=$_POST['mobileno'];
+			$subject=$_POST['subject'];
+            $description=$_POST['description'];
+
+            $query= "INSERT INTO enquiry(name, email, phoneno, subject, description) VALUES ('$name','$email','$phoneno','$subject','$description')";
+            if (mysqli_query($con,$query)){
+                echo "<script>alert('ENquiry has been submitted')</script>";
+            }
+            else{
+                echo "<script>alert('ENquiry has not been submitted')</script>";
+            }
+
+        }
+
+     ?>
 </body>
 </html>
