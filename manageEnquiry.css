@@ -406,7 +406,7 @@ html {
     display: inline-block;
   }
   .breadcrumb > li {
-    color: rgb(231, 76, 60) !important;
+    color: #337ab7 !important;
     font-size: 16px !important;
     vertical-align: middle !important;
   }
@@ -603,7 +603,7 @@ html {
   }
   #menu li a:hover {
     color: rgb(255, 255, 255);
-    background-color: rgb(27, 147, 225);
+    background-color: rgb(64, 72, 78);
     transition: color 250ms ease-in-out 0s, background-color 250ms ease-in-out 0s;
     border-left: 4px solid rgb(74, 74, 74);
   }

@@ -1,3 +1,6 @@
+<?php 
+    include("connection.php");
+?>
 <html style="overflow: hidden;">
 
 <head>
@@ -47,12 +50,12 @@
         </div>
         <!--header end here-->
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="dashboard.html">Home</a> <i class="fa fa-angle-right"></i></li>
+          <li class="breadcrumb-item"><a href="dashboard.php">Home</a> <i class="fa fa-angle-right"></i></li>
         </ol>
         <!--four-grids here-->
         <div class="four-grids">
           <div class="col-md-3 four-grid">
-            <a href="manageUser.html">
+            <a href="manageUser.php">
             <div class="four-agileits" style="background-color: rgb(51, 51, 51);
             display: flex;
             flex-direction: row;
@@ -63,17 +66,22 @@
               <div class="four-text" style="    display: flex;
               text-align: center;">
                 <h3  style="color: rgb(255, 255, 255);">User:</h3>
-
+                <?php
+                  $query="SELECT * FROM `user` ORDER BY `S no.` DESC LIMIT 1;";
+                  $result=mysqli_query($con,$query);
+						      while($rows = mysqli_fetch_array($result)){?>
                 <h4  style="color: rgb(255, 255, 255);     margin-top: 8px;
-                margin-left: 10px;"> 17 </h4>
-
+                margin-left: 10px;"> <?php echo $rows[0];?> </h4>
+                  <?php
+              				}
+              		?>
               </div>
 
             </div>
           </a>
           </div>
           <div class="col-md-3 four-grid">
-            <a href="manageBooking.html">
+            <a href="manageBooking.php">
             <div class="four-agileinfo" style="background-color: rgb(51, 51, 51);
             display: flex;
             flex-direction: row;
@@ -84,8 +92,16 @@
               <div class="four-text" style="    display: flex;
               text-align: center;">
                 <h3>Bookings:</h3>
+
+                <?php
+                  $query="SELECT * FROM `booking` ORDER BY `S no.` DESC LIMIT 1;";
+                  $result=mysqli_query($con,$query);
+						      while($rows = mysqli_fetch_array($result)){?>
                 <h4 style="color: rgb(255, 255, 255);     margin-top: 8px;
-                margin-left: 10px;">3</h4>
+                margin-left: 10px;"><?php echo $rows[0];?></h4>
+                <?php
+              				}
+              		?>
 
               </div>
 
@@ -93,7 +109,7 @@
             </a>
           </div>
           <div class="col-md-3 four-grid">
-            <a href="manageEnquiry.html">
+            <a href="manageEnquiry.php">
             <div class="four-w3ls" style="background-color: rgb(51, 51, 51);
             display: flex;
             flex-direction: row;
@@ -104,8 +120,16 @@
               <div class="four-text" style="    display: flex;
               text-align: center;">
                 <h3>Enquiries:</h3>
+
+                <?php
+                  $query="SELECT * FROM `enquiry` ORDER BY `S no.` DESC LIMIT 1;";
+                  $result=mysqli_query($con,$query);
+						      while($rows = mysqli_fetch_array($result)){?>
                 <h4 style="color: rgb(255, 255, 255);     margin-top: 8px;
-                margin-left: 10px;">3</h4>
+                margin-left: 10px;"><?php echo $rows[0];?></h4>
+                <?php
+              				}
+              		?>
 
               </div>
 
@@ -113,7 +137,7 @@
             </a>
           </div>
           <div class="col-md-3 four-grid">
-            <a href="createPackages.html">
+            <a href="managePackages.php">
             <div class="four-wthree" style="background-color: rgb(51, 51, 51);
             display: flex;
             flex-direction: row;
@@ -124,8 +148,16 @@
               <div class="four-text" style="    display: flex;
               text-align: center;">
                 <h3>Total packages:</h3>
+
+                <?php
+                  $query="SELECT * FROM `package` ORDER BY `S no.` DESC LIMIT 1;";
+                  $result=mysqli_query($con,$query);
+						      while($rows = mysqli_fetch_array($result)){?>
                 <h4 style="color: rgb(255, 255, 255);     margin-top: 8px;
-                margin-left: 10px; padding-right: 20px;">10</h4>
+                margin-left: 10px; padding-right: 20px;"><?php echo $rows[0];?></h4>
+                <?php
+              				}
+              		?>
 
               </div>
 
@@ -145,7 +177,7 @@
           <div style="border-top:1px ridge rgba(0, 0, 0, 0.15)"></div>
               <div class="menu">
                 <ul id="menu">
-                  <li><a href="dashboard.html"><i class="fa fa-tachometer" style="color: rebeccapurple;"></i> <span>Dashboard</span><div class="clearfix"></div></a></li>
+                  <li><a href="dashboard.php"><i class="fa fa-tachometer" style="color: rebeccapurple;"></i> <span>Dashboard</span><div class="clearfix"></div></a></li>
                   
                  <li id="menu-academico" ><a href="#"><i class="fa fa-list-ul" aria-hidden="true" style="color: yellowgreen;"></i><span> Tour Packages</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
                      <ul id="menu-academico-sub" >

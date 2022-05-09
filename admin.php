@@ -31,7 +31,7 @@
                 echo 'incorrect';
             }
             else{
-                header("location: dashboard.html");
+                header("location: dashboard.php");
             }
         }
 
