@@ -1,3 +1,8 @@
+<?php 
+    include("connection.php");
+    $query="SELECT * FROM booking";
+    $result=mysqli_query($con,$query);
+?>
 <html style="overflow: hidden;">
 
 <head>
@@ -47,7 +52,7 @@
         </div>
       <!--heder end here-->
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a><i class="fa fa-angle-right"></i>Manage Bookings</li>
+        <li class="breadcrumb-item"><a href="dashboard.php">Home</a><i class="fa fa-angle-right"></i>Manage Bookings</li>
       </ol>
       <div class="agile-grids">
         <!-- tables -->
@@ -57,32 +62,30 @@
             <table id="table">
               <thead>
                 <tr>
-                  <th>Booikn id</th>
+                  <th>S no.</th>
                   <th>Name</th>
                   <th>Mobile No.</th>
                   <th>Email Id</th>
-                  <th>RegDate </th>
-                  <th>From /To </th>
+                  <th>From Date </th>
+                  <th>To Date</th>
                   <th>Comment </th>
-                  <th>Status </th>
-                  <th>Action </th>
                 </tr>
               </thead>
               <tbody>
-
+              <?php
+						  while($rows = mysqli_fetch_array($result)){?>
                 <tr>
-                  <td data-th="Booikn id"><span class="bt-content">#BK-3</span></td>
-                  <td data-th="Name"><span class="bt-content">Abir</span></td>
-                  <td data-th="Mobile No."><span class="bt-content">4789756456</span></td>
-                  <td data-th="Email Id"><span class="bt-content">abir@gmail.com</span></td>
-                  <td data-th="RegDate "><span class="bt-content"><a href="update-package.php?pid=4">Kerala - A Lovers Paradise - Value Added</a></span></td>
-                  <td data-th="From /To "><span class="bt-content">2020-07-11 To 2020-07-15</span></td>
-                  <td data-th="Comment "><span class="bt-content">When I get conformation</span></td>
-                  <td data-th="Status "><span class="bt-content">Canceled by you at 2020-07-08 12:34:55</span></td>
-
-                  <td data-th="Action "><span class="bt-content">Cancelled</span></td>
-
+                  <td data-th="S no."><span class="bt-content"><?php echo $rows[0];?></span></td>
+                  <td data-th="Name"><span class="bt-content"><?php echo $rows[1];?></span></td>
+                  <td data-th="Mobile No."><span class="bt-content"><?php echo $rows[2];?></span></td>
+                  <td data-th="Email Id"><span class="bt-content"><?php echo $rows[3];?></span></td>
+                  <td data-th="From Date "><span class="bt-content"><?php echo $rows[4];?></span></td>
+                  <td data-th="To Date"><span class="bt-content"><?php echo $rows[5];?></span></td>
+                  <td data-th="Comment "><span class="bt-content"><?php echo $rows[6];?></span></td>
                 </tr>
+                <?php
+              				}
+              				?>
               </tbody>
             </table>
           </div>
@@ -98,18 +101,18 @@
           <div style="border-top:1px ridge rgba(0, 0, 0, 0.15)"></div>
               <div class="menu">
                 <ul id="menu">
-                  <li><a href="dashboard.html"><i class="fa fa-tachometer" style="color: rebeccapurple;"></i> <span>Dashboard</span><div class="clearfix"></div></a></li>
+                  <li><a href="dashboard.php"><i class="fa fa-tachometer" style="color: rebeccapurple;"></i> <span>Dashboard</span><div class="clearfix"></div></a></li>
                   
                  <li id="menu-academico" ><a href="#"><i class="fa fa-list-ul" aria-hidden="true" style="color: yellowgreen;"></i><span> Tour Packages</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
                      <ul id="menu-academico-sub" >
-                     <li id="menu-academico-avaliacoes" ><a href="createPackages.html">Create</a></li>
-                    <li id="menu-academico-avaliacoes" ><a href="managePackages.html">Manage</a></li>
+                     <li id="menu-academico-avaliacoes" ><a href="createPackages.php">Create</a></li>
+                    <li id="menu-academico-avaliacoes" ><a href="managePackages.php">Manage</a></li>
                     </ul>
                   </li>
-                <li id="menu-academico" ><a href="manageUser.html"><i class="fa fa-users" style="color: red;" aria-hidden="true"></i><span>Manage Users</span><div class="clearfix"></div></a></li>
+                <li id="menu-academico" ><a href="manageUser.php"><i class="fa fa-users" style="color: red;" aria-hidden="true"></i><span>Manage Users</span><div class="clearfix"></div></a></li>
                 
-                <li><a href="manageBooking.html"><i class="fa fa-list" style="color: blue;" aria-hidden="true"></i>  <span>Manage Booking</span><div class="clearfix"></div></a></li>
-                <li><a href="manageEnquiry.html"><i class="fa fa-file-text-o" style="color: green;" aria-hidden="true"></i>  <span>Manage Enquiries</span><div class="clearfix"></div></a></li>
+                <li><a href="manageBooking.php"><i class="fa fa-list" style="color: blue;" aria-hidden="true"></i>  <span>Manage Booking</span><div class="clearfix"></div></a></li>
+                <li><a href="manageEnquiry.php"><i class="fa fa-file-text-o" style="color: green;" aria-hidden="true"></i>  <span>Manage Enquiries</span><div class="clearfix"></div></a></li>
                  
                 
                 </ul>

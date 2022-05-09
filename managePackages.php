@@ -52,7 +52,7 @@
         </div>
       <!--heder end here-->
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a><i class="fa fa-angle-right"></i>Manage Packages</li>
+        <li class="breadcrumb-item"><a href="dashboard.php">Home</a><i class="fa fa-angle-right"></i>Manage Packages</li>
       </ol>
       <div class="agile-grids">
         <!-- tables -->
@@ -102,18 +102,18 @@
           <div style="border-top:1px ridge rgba(0, 0, 0, 0.15)"></div>
               <div class="menu">
                 <ul id="menu">
-                  <li><a href="dashboard.html"><i class="fa fa-tachometer" style="color: rebeccapurple;"></i> <span>Dashboard</span><div class="clearfix"></div></a></li>
+                  <li><a href="dashboard.php"><i class="fa fa-tachometer" style="color: rebeccapurple;"></i> <span>Dashboard</span><div class="clearfix"></div></a></li>
                   
                  <li id="menu-academico" ><a href="#"><i class="fa fa-list-ul" aria-hidden="true" style="color: yellowgreen;"></i><span> Tour Packages</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
                      <ul id="menu-academico-sub" >
-                     <li id="menu-academico-avaliacoes" ><a href="createPackages.html">Create</a></li>
-                    <li id="menu-academico-avaliacoes" ><a href="managePackages.html">Manage</a></li>
+                     <li id="menu-academico-avaliacoes" ><a href="createPackages.php">Create</a></li>
+                    <li id="menu-academico-avaliacoes" ><a href="managePackages.php">Manage</a></li>
                     </ul>
                   </li>
-                <li id="menu-academico" ><a href="manageUser.html"><i class="fa fa-users" style="color: red;" aria-hidden="true"></i><span>Manage Users</span><div class="clearfix"></div></a></li>
+                <li id="menu-academico" ><a href="manageUser.php"><i class="fa fa-users" style="color: red;" aria-hidden="true"></i><span>Manage Users</span><div class="clearfix"></div></a></li>
                 
-                <li><a href="manageBooking.html"><i class="fa fa-list" style="color: blue;" aria-hidden="true"></i>  <span>Manage Booking</span><div class="clearfix"></div></a></li>
-                <li><a href="manageEnquiry.html"><i class="fa fa-file-text-o" style="color: green;" aria-hidden="true"></i>  <span>Manage Enquiries</span><div class="clearfix"></div></a></li>
+                <li><a href="manageBooking.php"><i class="fa fa-list" style="color: blue;" aria-hidden="true"></i>  <span>Manage Booking</span><div class="clearfix"></div></a></li>
+                <li><a href="manageEnquiry.php"><i class="fa fa-file-text-o" style="color: green;" aria-hidden="true"></i>  <span>Manage Enquiries</span><div class="clearfix"></div></a></li>
                  
                 
                 </ul>
