@@ -1,0 +1,7617 @@
+html {
+  font-family: sans-serif;
+  text-size-adjust: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 100%;
+  background-color: rgb(237, 236, 236);
+}
+*,
+:active,
+:focus,
+:hover {
+  outline: 0px !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+*,
+a,
+button,
+i,
+input {
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0px;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: rgb(51, 51, 51);
+  background-color: rgb(255, 255, 255);
+}
+.page-container {
+  min-width: 1260px;
+  position: relative;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+}
+.left-content {
+  float: right;
+  width: 87%;
+}
+.left-content {
+  width: 87%;
+  padding: 0px 2em;
+}
+.header-main {
+  padding: 1em;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px;
+}
+.logo-w3-agile {
+  background: rgb(162, 210, 0);
+  float: left;
+  width: 65.25%;
+  text-align: center;
+  padding: 1em;
+  margin-right: 1%;
+}
+h1 {
+  margin: 0.67em 0px;
+  font-size: 2em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h1,
+.h1 {
+  font-size: 36px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Montserrat, sans-serif;
+}
+.logo-w3-agile h1 {
+  margin: 0px;
+  font-size: 35px;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0px;
+}
+a {
+  color: rgb(51, 122, 183);
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: rgb(35, 82, 124);
+  text-decoration: underline;
+}
+a:focus {
+  outline: -webkit-focus-ring-color auto 5px;
+  outline-offset: -2px;
+}
+body a {
+  transition: all 0.5s ease 0s;
+}
+a:focus,
+a:active,
+a:hover,
+a.dropdown-toggle {
+  outline: none;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+a {
+  color: rgb(0, 141, 231);
+  font-weight: 400;
+}
+a:hover {
+  transition: all 200ms ease-in-out 0s;
+}
+.logo-w3-agile h1 a {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  display: inline-block;
+}
+.profile_details {
+  float: left;
+  width: 24.25%;
+  background: rgb(27, 147, 225);
+  text-align: center;
+  padding: 0.3em 1em;
+}
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.profile_details ul {
+  padding: 0px;
+}
+.dropup,
+.dropdown {
+  position: relative;
+}
+.profile_details ul li {
+  list-style-type: none;
+  position: relative;
+}
+.dropdown-toggle:focus {
+  outline: 0px;
+}
+.profile_details_drop a.dropdown-toggle {
+  display: block;
+  padding: 0em 3em 0px 1em;
+}
+.profile_img span.prfil-img {
+  float: left;
+}
+img {
+  border: 0px;
+}
+img {
+  vertical-align: middle;
+}
+span.prfil-img img {
+  border-radius: 50%;
+  border: 3px solid rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+}
+.user-name {
+  float: left;
+  margin-top: 7px;
+  margin-left: 11px;
+  height: 35px;
+}
+p {
+  margin: 0px 0px 10px;
+}
+body p {
+  font-family: Roboto, sans-serif;
+}
+.user-name p {
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  line-height: 1em;
+  font-weight: 700;
+}
+.user-name span {
+  font-size: 16px;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  margin-top: 0.3em;
+}
+i.fa.fa-angle-down {
+  color: rgb(0, 0, 0) !important;
+}
+.profile_details li a i.fa {
+  position: absolute;
+  top: 34%;
+  right: 8%;
+  color: rgb(27, 147, 225);
+  font-size: 1.6em;
+}
+.fa {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1;
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.fa-angle-down::before {
+  content: "";
+}
+.profile_details_drop .fa.fa-angle-up {
+  display: none;
+}
+.fa-angle-up::before {
+  content: "";
+}
+.clearfix::before,
+.clearfix::after,
+.dl-horizontal dd::before,
+.dl-horizontal dd::after,
+.container::before,
+.container::after,
+.container-fluid::before,
+.container-fluid::after,
+.row::before,
+.row::after,
+.form-horizontal .form-group::before,
+.form-horizontal .form-group::after,
+.btn-toolbar::before,
+.btn-toolbar::after,
+.btn-group-vertical > .btn-group::before,
+.btn-group-vertical > .btn-group::after,
+.nav::before,
+.nav::after,
+.navbar::before,
+.navbar::after,
+.navbar-header::before,
+.navbar-header::after,
+.navbar-collapse::before,
+.navbar-collapse::after,
+.pager::before,
+.pager::after,
+.panel-body::before,
+.panel-body::after,
+.modal-footer::before,
+.modal-footer::after {
+  display: table;
+  content: " ";
+}
+.clearfix::after,
+.dl-horizontal dd::after,
+.container::after,
+.container-fluid::after,
+.row::after,
+.form-horizontal .form-group::after,
+.btn-toolbar::after,
+.btn-group-vertical > .btn-group::after,
+.nav::after,
+.navbar::after,
+.navbar-header::after,
+.navbar-collapse::after,
+.pager::after,
+.panel-body::after,
+.modal-footer::after {
+  clear: both;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0px;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0px;
+  margin: 2px 0px 0px;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.176) 0px 6px 12px;
+}
+.dropdown-menu {
+  box-shadow: rgba(0, 0, 0, 0.176) 2px 3px 4px;
+  border-radius: 0px;
+}
+ul.dropdown-menu {
+  padding: 0px;
+  min-width: 230px;
+  top: 101%;
+}
+.profile_details ul li ul.dropdown-menu.drp-mnu {
+  padding: 1em;
+  min-width: 190px;
+  top: 122%;
+  left: 0%;
+}
+ul.dropdown-menu li {
+  margin-left: 0px;
+  width: 100%;
+  padding: 0px;
+  background: rgb(255, 255, 255);
+}
+ul.dropdown-menu.drp-mnu li {
+  list-style-type: none;
+  padding: 3px 0px;
+}
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857;
+  color: rgb(51, 51, 51);
+  white-space: nowrap;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: rgb(38, 38, 38);
+  text-decoration: none;
+  background-color: rgb(245, 245, 245);
+}
+.dropdown-menu > li > a {
+  padding: 3px 15px;
+  font-size: 1em;
+}
+ul.dropdown-menu.drp-mnu i.fa {
+  margin-right: 0.5em;
+}
+.fa-lock::before {
+  content: "";
+}
+.fa-sign-out::before {
+  content: "";
+}
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: rgb(245, 245, 245);
+  border-radius: 4px;
+}
+ol {
+  margin-bottom: 44px;
+}
+.breadcrumb {
+  padding: 8px 15px !important;
+  margin: 20px 0px !important;
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 0px !important;
+}
+.breadcrumb > li {
+  display: inline-block;
+}
+.breadcrumb > li {
+  color: rgb(60, 128, 231) !important;
+  font-size: 16px !important;
+  vertical-align: middle !important;
+}
+li.breadcrumb-item i.fa.fa-angle-right {
+  font-size: 25px;
+  padding: 0px 8px;
+  color: rgb(0, 0, 0);
+  vertical-align: middle;
+}
+.fa-angle-right::before {
+  content: "";
+}
+.agile-tables {
+  background: rgb(255, 255, 255);
+  padding: 2em;
+  margin: 2em 0px;
+}
+h2,
+.h2 {
+  font-size: 30px;
+}
+.w3l-table-info h2,
+.agile-tables h3 {
+  font-size: 28px;
+  color: rgb(27, 147, 225);
+}
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table {
+  background-color: transparent;
+}
+pre code,
+table {
+  background-color: transparent;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+table {
+  background: white;
+  border-collapse: collapse;
+  margin: 1.25em 0px 0px;
+  width: 100%;
+}
+table {
+  width: 100%;
+}
+table tr,
+table th,
+table td {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  border-bottom: 1px solid rgb(232, 232, 232);
+  font-size: 0.95em;
+}
+td,
+th {
+  padding: 0px;
+}
+th {
+  text-align: left;
+}
+caption,
+th {
+  text-align: left;
+}
+table th,
+table td {
+  padding: 10px 12px;
+  text-align: left;
+}
+table th {
+  background: rgb(60, 140, 231);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+table tr td {
+  background: rgb(243, 250, 255);
+  color: rgb(66, 66, 66);
+}
+td span {
+  padding: 4px 7px;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0px;
+  font: inherit;
+  color: inherit;
+}
+button,
+select {
+  text-transform: none;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: -webkit-focus-ring-color auto 5px;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0px;
+  box-shadow: rgba(0, 0, 0, 0.125) 0px 3px 5px inset;
+}
+.btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: rgb(51, 122, 183);
+  border-color: rgb(46, 109, 164);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: rgb(40, 96, 144);
+  border-color: rgb(32, 77, 116);
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn,
+.m-sidebar header h2,
+.p-menu > li > a,
+.popover-title,
+.table > thead > tr > th {
+  text-transform: uppercase;
+}
+.btn {
+  display: inline-block;
+  margin-bottom: 0px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-image: none;
+  border-width: 0px;
+  border-style: initial;
+  border-image: initial;
+  border-color: rgba(0, 0, 0, 0.07) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.18);
+  white-space: nowrap;
+  padding: 8px 15px;
+  border-radius: 3px;
+  letter-spacing: 0.02em;
+  user-select: none;
+}
+.btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 188, 212);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: rgb(42, 51, 66);
+  border-color: rgba(0, 0, 0, 0.05);
+}
+.btn {
+  border-radius: 0px;
+  outline: none;
+}
+table tr:nth-of-type(2n + 2) td {
+  background: rgb(255, 255, 255);
+}
+.copyrights {
+  padding: 1.5em 0em;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px;
+  background: rgb(255, 255, 255);
+}
+.copyrights p {
+  font-size: 1em;
+  color: rgb(105, 105, 105);
+  margin-bottom: 0px;
+}
+.copyrights p a {
+  color: rgb(27, 147, 225);
+}
+.copyrights p a:hover {
+  color: rgb(105, 105, 105);
+}
+.sidebar-menu {
+  position: fixed;
+  float: left;
+  width: 230px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: rgb(51, 51, 51);
+  color: rgb(170, 171, 174);
+  box-shadow: rgb(58, 41, 31) 0px 0px 10px 0px;
+  z-index: 999;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+.logo1 {
+  width: 100%;
+  padding: 15px 14px;
+  box-sizing: border-box;
+  background: rgb(27, 147, 225);
+  text-align: center;
+}
+a.sidebar-icon:hover {
+  color: rgb(27, 147, 225);
+}
+.sidebar-icon {
+  margin-top: -2px;
+  border: 1px solid rgb(27, 147, 225);
+  text-align: right;
+  line-height: 1;
+  font-size: 19px;
+  padding: 5px 10px;
+  border-radius: 0px;
+  color: rgb(27, 147, 225);
+  background: rgb(255, 255, 255);
+  float: none;
+}
+.fa-navicon::before,
+.fa-reorder::before,
+.fa-bars::before {
+  content: "";
+}
+.menu {
+  text-align: left;
+}
+#menu {
+  list-style: none;
+  margin: 0px 0px 20px;
+  padding: 0px;
+}
+#menu li {
+  position: relative;
+  margin: 0px;
+  border-bottom: 1px ridge rgba(255, 255, 255, 0.04);
+  padding: 0px;
+}
+#menu li a {
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+  display: block;
+  padding: 13px 20px;
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+  z-index: 2;
+  background-color: rgb(51, 51, 51);
+  font-size: 0.9em;
+  font-family: Roboto, sans-serif;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-image: initial;
+  border-left: 4px solid rgb(51, 51, 51);
+}
+#menu li a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(64, 72, 78);
+  transition: color 250ms ease-in-out 0s, background-color 250ms ease-in-out 0s;
+  border-left: 4px solid rgb(74, 74, 74);
+}
+#menu .fa {
+  margin-right: 5px;
+}
+ul#menu i {
+  font-size: 1.1em;
+  margin-right: 6px;
+  width: 10%;
+  float: left;
+  padding-top: 2px;
+}
+.fa-dashboard::before,
+.fa-tachometer::before {
+  content: "";
+}
+li#menu-academico {
+  z-index: 999;
+}
+.fa-list-ul::before {
+  content: "";
+}
+#menu li ul {
+  opacity: 0;
+  height: 0px;
+}
+#menu ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#menu li ul {
+  position: absolute;
+  visibility: hidden;
+  left: 100%;
+  top: -1px;
+  background-color: rgb(43, 48, 58);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 0px;
+  opacity: 0;
+  transition: opacity 0.1s linear 0s;
+  border-top: 1px solid rgba(69, 74, 84, 0.7);
+}
+#menu li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
+ul#menu-academico-sub {
+  z-index: 999;
+}
+#menu ul li {
+  background-color: rgb(51, 51, 51);
+}
+.fa-group::before,
+.fa-users::before {
+  content: "";
+}
+.fa-list::before {
+  content: "";
+}
+.fa-table::before {
+  content: "";
+}
+.fa-file-text-o::before {
+  content: "";
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 1080px) {
+  .page-container {
+    min-width: 1032px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 991px) {
+  .page-container {
+    min-width: 991px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 800px) {
+  .page-container {
+    min-width: 800px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 768px) {
+  .page-container {
+    min-width: 775px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 736px) {
+  .page-container {
+    min-width: 736px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 667px) {
+  .page-container {
+    min-width: 675px;
+  }
+}
+@media (max-width: 640px) {
+  .page-container {
+    min-width: 650px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 600px) {
+  .page-container {
+    min-width: 600px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 568px) {
+  .page-container {
+    min-width: 568px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 480px) {
+  .page-container {
+    min-width: 480px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 414px) {
+  .page-container {
+    min-width: 414px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 384px) {
+  .page-container {
+    min-width: 384px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 375px) {
+  .page-container {
+    min-width: 375px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 320px) {
+  .page-container {
+    min-width: 320px;
+    position: relative;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 1600px) {
+  .left-content {
+    float: right;
+    width: 86%;
+  }
+}
+@media (max-width: 1440px) {
+  .left-content {
+    float: right;
+    width: 84%;
+  }
+}
+@media (max-width: 1280px) {
+  .left-content {
+    float: right;
+    width: 83%;
+  }
+}
+@media (max-width: 1080px) {
+  .left-content {
+    float: right;
+    width: 78%;
+  }
+}
+@media (max-width: 991px) {
+  .left-content {
+    float: right;
+    width: 81%;
+  }
+}
+@media (max-width: 800px) {
+  .left-content {
+    float: right;
+    width: 76%;
+  }
+}
+@media (max-width: 768px) {
+  .left-content {
+    float: right;
+    width: 76%;
+  }
+}
+@media (max-width: 736px) {
+  .left-content {
+    float: right;
+    width: 76%;
+  }
+}
+@media (max-width: 640px) {
+  .left-content {
+    float: right;
+    width: 92%;
+  }
+}
+@media (max-width: 480px) {
+  .left-content {
+    float: right;
+    width: 87%;
+  }
+}
+@media (max-width: 414px) {
+  .left-content {
+    float: right;
+    width: 85%;
+  }
+}
+@media (max-width: 384px) {
+  .left-content {
+    width: 86%;
+  }
+}
+@media (max-width: 320px) {
+  .left-content {
+    width: 87%;
+    padding: 0px 1em 0px 2em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  .logo-w3-agile {
+    width: 48%;
+    margin-right: 4%;
+    margin-bottom: 1em;
+  }
+}
+@media (max-width: 480px) {
+  .logo-w3-agile {
+    width: 100%;
+    margin-bottom: 1em;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 320px) {
+  .logo-w3-agile {
+    padding: 0.5em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 640px) {
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 1080px) {
+  .logo-w3-agile h1 {
+    font-size: 27px;
+  }
+}
+@media (max-width: 320px) {
+  .logo-w3-agile h1 {
+    font-size: 24px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 1080px) {
+  .profile_details {
+    padding: 0.28em 1em;
+  }
+}
+@media (max-width: 800px) {
+  .profile_details {
+    width: 48%;
+  }
+}
+@media (max-width: 480px) {
+  .profile_details {
+    width: 100%;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 1280px) {
+  .profile_details_drop a.dropdown-toggle {
+    padding: 0em 1em 0px;
+  }
+}
+@media (max-width: 1080px) {
+  .profile_details_drop a.dropdown-toggle {
+    padding: 0em 0em 0px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 1080px) {
+  .profile_img span.prfil-img {
+    width: 29%;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  tr,
+  img {
+    break-inside: avoid;
+  }
+}
+@media print {
+  img {
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 1080px) {
+  span.prfil-img img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+}
+@media (max-width: 480px) {
+  .alert,
+  p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .alert,
+  p,
+  ol.breadcrumb li,
+  .grid_3 p,
+  .well,
+  ul.list-group li,
+  li.list-group-item1,
+  a.list-group-item {
+    font-size: 13px;
+  }
+}
+@media (max-width: 800px) {
+  p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1080px) {
+  .user-name p {
+    margin-bottom: 0px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 1080px) {
+  .user-name span {
+    font-size: 13px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 1280px) {
+  .profile_details li a i.fa {
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 1080px) {
+  .profile_details li a i.fa {
+    right: -7%;
+  }
+}
+@media (max-width: 800px) {
+  .profile_details li a i.fa {
+    right: -2%;
+  }
+}
+@media (max-width: 480px) {
+  .profile_details li a i.fa {
+    right: -2%;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 1280px) {
+  .profile_details li a i.fa {
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 1080px) {
+  .profile_details li a i.fa {
+    right: -7%;
+  }
+}
+@media (max-width: 800px) {
+  .profile_details li a i.fa {
+    right: -2%;
+  }
+}
+@media (max-width: 480px) {
+  .profile_details li a i.fa {
+    right: -2%;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 480px) {
+  .dropdown-menu {
+    left: -74px;
+  }
+}
+@media (max-width: 414px) {
+  .dropdown-menu {
+    left: -102px;
+  }
+}
+@media (max-width: 320px) {
+  .dropdown-menu {
+    left: -97px;
+  }
+}
+@media (max-width: 320px) {
+  ul.dropdown-menu {
+    min-width: 200px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 1280px) {
+  .profile_details li a i.fa {
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 1080px) {
+  .profile_details li a i.fa {
+    right: -7%;
+  }
+}
+@media (max-width: 800px) {
+  .profile_details li a i.fa {
+    right: -2%;
+  }
+}
+@media (max-width: 480px) {
+  .profile_details li a i.fa {
+    right: -2%;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 1280px) {
+  .profile_details li a i.fa {
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 1080px) {
+  .profile_details li a i.fa {
+    right: -7%;
+  }
+}
+@media (max-width: 800px) {
+  .profile_details li a i.fa {
+    right: -2%;
+  }
+}
+@media (max-width: 480px) {
+  .profile_details li a i.fa {
+    right: -2%;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 640px) {
+  .breadcrumb {
+    margin-bottom: 25px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 640px) {
+  ol.breadcrumb li,
+  .grid_3 p,
+  ul.list-group li,
+  li.list-group-item1 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .alert,
+  p,
+  ol.breadcrumb li,
+  .grid_3 p,
+  .well,
+  ul.list-group li,
+  li.list-group-item1,
+  a.list-group-item {
+    font-size: 13px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .agile-tables {
+    padding: 1em;
+  }
+}
+@media (max-width: 320px) {
+  .agile-tables {
+    margin: 1em 0px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+}
+@media print {
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+}
+@media (max-width: 640px) {
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 991px) {
+  .w3l-table-info h2,
+  .agile-tables h3 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 414px) {
+  .w3l-table-info h2,
+  .agile-tables h3 {
+    font-size: 19px;
+  }
+}
+@media (max-width: 320px) {
+  .w3l-table-info h2,
+  .agile-tables h3 {
+    font-size: 17px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  thead {
+    display: table-header-group;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  tr,
+  img {
+    break-inside: avoid;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  tr,
+  img {
+    break-inside: avoid;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  tr,
+  img {
+    break-inside: avoid;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  tr,
+  img {
+    break-inside: avoid;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  tr,
+  img {
+    break-inside: avoid;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  tr,
+  img {
+    break-inside: avoid;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  tr,
+  img {
+    break-inside: avoid;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  tr,
+  img {
+    break-inside: avoid;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  tr,
+  img {
+    break-inside: avoid;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  tr,
+  img {
+    break-inside: avoid;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  tr,
+  img {
+    break-inside: avoid;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 800px) {
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 736px) {
+  table th,
+  table td {
+    padding: 9px 7px;
+  }
+}
+@media (max-width: 736px) {
+  .w3l-table-info table th,
+  table td {
+    padding: 10px 6px !important;
+  }
+}
+@media (max-width: 667px) {
+  table th,
+  table td {
+    padding: 9px 4px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 320px) {
+  .copyrights {
+    padding: 0.5em 0.3em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+}
+@media (max-width: 480px) {
+  .alert,
+  p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .alert,
+  p,
+  ol.breadcrumb li,
+  .grid_3 p,
+  .well,
+  ul.list-group li,
+  li.list-group-item1,
+  a.list-group-item {
+    font-size: 13px;
+  }
+}
+@media (max-width: 800px) {
+  p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .copyrights p {
+    font-size: 0.9em;
+    line-height: 1.8em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 991px) {
+  .sidebar-menu {
+    position: fixed;
+    float: left;
+    width: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .sidebar-menu {
+    position: fixed;
+    float: left;
+    width: 200px;
+  }
+}
+@media (max-width: 736px) {
+  .sidebar-menu {
+    position: fixed;
+    float: left;
+    width: 180px;
+  }
+}
+@media (max-width: 736px) {
+  .sidebar-menu {
+    position: absolute;
+  }
+}
+@media (max-width: 640px) {
+  .sidebar-menu {
+    position: fixed;
+    float: left;
+    width: 170px;
+  }
+}
+@media (max-width: 640px) {
+  .sidebar-menu {
+    width: 65px;
+    transition: all 100ms ease-in-out 300ms;
+  }
+}
+@media (max-width: 640px) {
+  .sidebar-menu {
+    position: absolute;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 640px) {
+  .logo1 {
+    padding: 21px 0px;
+    height: 63px;
+    box-sizing: border-box;
+    transition: all 100ms ease-in-out 300ms;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 736px) {
+  .sidebar-icon {
+    margin-top: -2px;
+    font-size: 19px;
+    padding: 8px 9px;
+  }
+}
+@media (max-width: 640px) {
+  .sidebar-icon {
+    margin-top: -6px;
+    font-size: 19px;
+    padding: 6px 7px;
+    margin-right: 0px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) {
+  #menu li a {
+    padding: 12px 20px;
+    font-size: 0.85em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 640px) {
+  #menu span {
+    opacity: 0;
+    transition: all 50ms linear 0s;
+    display: inline-block;
+    margin-left: 10px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) {
+  #menu li a {
+    padding: 12px 20px;
+    font-size: 0.85em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 640px) {
+  #menu span {
+    opacity: 0;
+    transition: all 50ms linear 0s;
+    display: inline-block;
+    margin-left: 10px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 640px) {
+  #menu span {
+    opacity: 0;
+    transition: all 50ms linear 0s;
+    display: inline-block;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 640px) {
+  span.fa.fa-angle-right,
+  span.fa.fa-angle-double-right {
+    float: right !important;
+    position: absolute !important;
+    right: 15px !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) {
+  #menu li a {
+    padding: 12px 20px;
+    font-size: 0.85em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) {
+  #menu li a {
+    padding: 12px 20px;
+    font-size: 0.85em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) {
+  #menu li a {
+    padding: 12px 20px;
+    font-size: 0.85em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 640px) {
+  #menu span {
+    opacity: 0;
+    transition: all 50ms linear 0s;
+    display: inline-block;
+    margin-left: 10px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) {
+  #menu li a {
+    padding: 12px 20px;
+    font-size: 0.85em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 640px) {
+  #menu span {
+    opacity: 0;
+    transition: all 50ms linear 0s;
+    display: inline-block;
+    margin-left: 10px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) {
+  #menu li a {
+    padding: 12px 20px;
+    font-size: 0.85em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 640px) {
+  #menu span {
+    opacity: 0;
+    transition: all 50ms linear 0s;
+    display: inline-block;
+    margin-left: 10px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) {
+  #menu li a {
+    padding: 12px 20px;
+    font-size: 0.85em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 640px) {
+  #menu span {
+    opacity: 0;
+    transition: all 50ms linear 0s;
+    display: inline-block;
+    margin-left: 10px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) {
+  #menu li a {
+    padding: 12px 20px;
+    font-size: 0.85em;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media (max-width: 640px) {
+  #menu span {
+    opacity: 0;
+    transition: all 50ms linear 0s;
+    display: inline-block;
+    margin-left: 10px;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+@media print {
+  *,
+  ::before,
+  ::after {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
