@@ -11,7 +11,7 @@
         <div class="navbar">
             <h2 class="heading">Tour Management System</h2>
             <ul>
-                <li><a href="home.html">Home </a></li>
+                <li><a href="home.php">Home </a></li>
                 <li><a href="aboutus.html">About us</a></li>
                 <li><a href="package.php">Tour package</a></li>
                 <li><a href="enquiry.php">Enquiries</a></li>

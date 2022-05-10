@@ -9,9 +9,9 @@
         <div class="navbar">
             <h2 class="heading">Tour Management System</h2>
             <ul>
-                <li><a href="home.html">Home </a></li>
+                <li><a href="home.php">Home </a></li>
                 <li><a href="aboutus.html">About us</a></li>
-                <li><a href="#">Tour package</a></li>
+                <li><a href="package.php">Tour package</a></li>
                 <li><a href="enquiry.html">Enquiries</a></li>
                 <li><a href="Contact_Us.html">Contact us</a></li>
             </ul>
@@ -31,11 +31,20 @@
       <img src="admin/pacakgeimages/1581490262_2_1.jpg" class="img-responsive" alt="">
     </div>
     <div class="col-md-8 selectroom_right wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-      <h2>Swiss Paris Delight Premium 2020 (Group Package)</h2>
-      <p class="dow">#PKG-1</p>
-      <p><b>Package Type :</b> Group Package</p>
-      <p><b>Package Location :</b> Paris and Switzerland</p>
-      <p><b>Features</b> Round trip Economy class airfare valid for the duration of the holiday - Airport taxes - Accommodation for 3 nights in Paris and 3 nights in scenic Switzerland - Enjoy continental breakfasts every morning - Enjoy 5 Indian dinners in Mainland Europe - Exp</p>
+    
+    <?php
+    include("connection.php");
+    $num = $_GET['number'];
+    $query="SELECT * FROM package";
+    $result=mysqli_query($con,$query);
+	  while($rows = mysqli_fetch_array($result)){
+      if($rows[0]==$num){
+      ?>
+
+    <h2><?php echo $rows[1];?> (<?php echo $rows[2];?>)</h2>
+      <p><b>Package Type :</b> <?php echo $rows[2];?></p>
+      <p><b>Package Location :</b> <?php echo $rows[3];?></p>
+      <p><b>Features</b> <?php echo $rows[5];?></p>
       <div class="ban-bottom" style="text-align: center;">
         <div class="bnr-right">
           <label class="inputLabel">From</label>
@@ -49,12 +58,16 @@
       <div class="clearfix"></div>
       <div class="grand" style="text-align: center;padding: 30px 10px;">
         <p>Grand Total</p>
-        <h3>USD.800</h3>
+        <h3>USD. <?php echo $rows[4];?></h3>
       </div>
     </div>
     <h3>Package Details</h3>
-    <p style="padding: 20px 40px;">Pick this holiday for a relaxing vacation in Paris and Switzerland. Your tour embarks from Paris. Enjoy an excursion to popular attractions like the iconic Eiffel Tower. After experiencing the beautiful city, you will drive past mustard fields through Burgundy to reach Switzerland. While there, you can opt for a tour to Interlaken and then to the Trummelbach Falls. Photostop at Zurich Lake and a cable car ride to Mt. Titlis are the main highlights of the holiday. </p>
+    <p style="padding: 20px 40px;"><?php echo $rows[6];?></p>
   </div>
+<?php
+    }
+    }
+?>
   <div class="selectroom_top">
     <h2>Travels</h2>
     <div class="selectroom-info animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms" style="visibility: visible; animation-duration: 1200ms; animation-delay: 500ms; animation-name: fadeInUp; margin-top: -70px;">

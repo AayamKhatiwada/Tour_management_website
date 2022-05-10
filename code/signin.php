@@ -60,7 +60,7 @@
                 echo "<script>alert('Incorrect email and password')</script>";
             }
             else{
-                header("location: home.html");
+                header("location: home.php");
             }
         }
 
