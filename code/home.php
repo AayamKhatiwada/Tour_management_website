@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+
+    <div class="banner">
+        <div class="navbar">
+            <h2 class="heading">Tour Management System</h2>
+            <ul>
+                <li><a href="home.html">Home </a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="package.php">Tour package</a></li>
+                <li><a href="enquiry.php">Enquiries</a></li>
+                <li><a href="Contact_Us.php">Contact us</a></li>
+            </ul>
+            <ul>
+                <li><a href="signin.php">Sign up/login</a></li>
+                <li><a href="admin.php">Admin</a></li>
+            </ul>
+        </div>
+        <hr class="h">
+
+    </div>
+    <div class="vl"></div>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>dicover new places with us, adventure awaits</p>
+        </div>
+
+        <div class="video-container">
+            <video src="Website.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+        </div>
+    </section>
+    
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+
+            <p class="copyright">Company Name © 2018</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
