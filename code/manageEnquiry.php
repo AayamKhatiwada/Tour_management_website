@@ -68,6 +68,7 @@
                   <th>Phone No.</th>
                   <th>Subject </th>
                   <th>Description </th>
+                  <th>Delete </th>
                 </tr>
               </thead>
               <tbody>
@@ -80,6 +81,7 @@
                   <td width="200" data-th="Phone No."><span class="bt-content"><?php echo $rows[3];?></span></td>
                   <td width="400" data-th="Subject"><span class="bt-content"><?php echo $rows[4];?></span></td>
                   <td width="50" data-th="Description"><span class="bt-content"><?php echo $rows[5];?></span></td>
+                  <td data-th="Edit/delete"><span class="bt-content"><a href="delete.php?data=enquiry&number=<?php echo $rows[0];?>"><button class="btn-primary btn"><i class="fa fa-trash-o"></i></button></a></span></td>
                 </tr>
                 <?php
               				}

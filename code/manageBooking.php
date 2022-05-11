@@ -69,6 +69,7 @@
                   <th>From Date </th>
                   <th>To Date</th>
                   <th>Comment </th>
+                  <th>Delete </th>
                 </tr>
               </thead>
               <tbody>
@@ -82,6 +83,7 @@
                   <td data-th="From Date "><span class="bt-content"><?php echo $rows[4];?></span></td>
                   <td data-th="To Date"><span class="bt-content"><?php echo $rows[5];?></span></td>
                   <td data-th="Comment "><span class="bt-content"><?php echo $rows[6];?></span></td>
+                  <td data-th="Edit/delete"><span class="bt-content"><a href="delete.php?data=booking&number=<?php echo $rows[0];?>"><button class="btn-primary btn"><i class="fa fa-trash-o"></i></button></a></span></td>
                 </tr>
                 <?php
               				}

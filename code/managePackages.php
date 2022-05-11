@@ -9,6 +9,7 @@
   <title>TMS | admin manage packages</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="managePackages.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -42,7 +43,7 @@
                   </div>
                 </a>
                 <ul class="dropdown-menu drp-mnu">
-                  <li> <a href="home.html"><i class="fa fa-sign-out" style="color: black;"></i> Logout</a> </li>
+                  <li> <a href="home.php"><i class="fa fa-sign-out" style="color: black;"></i> Logout</a> </li>
                 </ul>
               </li>
             </ul>
@@ -70,6 +71,7 @@
                   <th>Price</th>
                   <th>Features</th>
                   <th>Description</th>
+                  <th colspan="2">Edit / Delete</th>
                 </tr>
               </thead>
               <tbody>
@@ -83,6 +85,8 @@
                   <td data-th="Price"><span class="bt-content"><?php echo $rows[4];?></span></td>
                   <td data-th="features"><span class="bt-content"><?php echo $rows[5];?></span></td>
                   <td data-th="Description"><span class="bt-content"><?php echo $rows[6];?></span></td>
+                  <td data-th="Edit/delete"><span class="bt-content"><a href="editPackage.php?number=<?php echo $rows[0];?>"><button class="btn-primary btn"><i class="fa fa-edit"></i></button></a></span></td>
+                  <td data-th="Edit/delete"><span class="bt-content"><a href="delete.php?data=package&number=<?php echo $rows[0];?>"><button class="btn-primary btn"><i class="fa fa-trash-o"></i></button></a></span></td>
                 </tr>
               <?php
               }

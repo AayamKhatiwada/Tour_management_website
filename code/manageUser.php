@@ -66,7 +66,7 @@
 							<th>Name</th>
 							<th>Email id</th>
 							<th>Phone number</th>
-
+							<th>Delete</th>
 						  </tr>
 						</thead>
 						<tbody>
@@ -77,6 +77,7 @@
 							<td><?php echo $rows[1];?></td>
 							<td><?php echo $rows[2];?></td>
 							<td><?php echo $rows[3];?></td>
+							<td data-th="Edit/delete"><span class="bt-content"><a href="delete.php?data=user&number=<?php echo $rows[0];?>"><button class="btn-primary btn"><i class="fa fa-trash-o"></i></button></a></span></td>
 						  </tr>
 						  <?php
               				}
