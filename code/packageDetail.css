@@ -68,299 +68,338 @@
 
 * {
     box-sizing: border-box;
-  }
-  .selectroom_top {
+}
+
+.selectroom_top {
     padding: 2em;
     box-shadow: rgb(0, 0, 0) 0px 0px 10px -4px;
     margin-bottom: 2em;
-  }
-  .col-xs-1,
-  .col-sm-1,
-  .col-md-1,
-  .col-lg-1,
-  .col-xs-2,
-  .col-sm-2,
-  .col-md-2,
-  .col-lg-2,
-  .col-xs-3,
-  .col-sm-3,
-  .col-md-3,
-  .col-lg-3,
-  .col-xs-4,
-  .col-sm-4,
-  .col-md-4,
-  .col-lg-4,
-  .col-xs-5,
-  .col-sm-5,
-  .col-md-5,
-  .col-lg-5,
-  .col-xs-6,
-  .col-sm-6,
-  .col-md-6,
-  .col-lg-6,
-  .col-xs-7,
-  .col-sm-7,
-  .col-md-7,
-  .col-lg-7,
-  .col-xs-8,
-  .col-sm-8,
-  .col-md-8,
-  .col-lg-8,
-  .col-xs-9,
-  .col-sm-9,
-  .col-md-9,
-  .col-lg-9,
-  .col-xs-10,
-  .col-sm-10,
-  .col-md-10,
-  .col-lg-10,
-  .col-xs-11,
-  .col-sm-11,
-  .col-md-11,
-  .col-lg-11,
-  .col-xs-12,
-  .col-sm-12,
-  .col-md-12,
-  .col-lg-12 {
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-  }
-  img {
+}
+
+img {
     border: 0px;
-  }
-  img {
+}
+
+img {
     vertical-align: middle;
-  }
-  .img-responsive,
-  .thumbnail > img,
-  .thumbnail a > img,
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
+}
+
+.img-responsive,
+.thumbnail>img,
+.thumbnail a>img,
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
     display: block;
     max-width: 100%;
     height: auto;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  .h1,
-  .h2,
-  .h3,
-  .h4,
-  .h5,
-  .h6 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
-  }
-  h1,
-  .h1,
-  h2,
-  .h2,
-  h3,
-  .h3 {
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
     margin-top: 20px;
     margin-bottom: 10px;
-  }
-  h2,
-  .h2 {
+}
+
+h2,
+.h2 {
     font-size: 30px;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0px;
     font-family: "Roboto Condensed", sans-serif;
-  }
-  .selectroom_right h2 {
+}
+
+.selectroom_right h2 {
     font-size: 1.7em;
     color: rgb(153, 153, 153);
     font-weight: 600;
     margin: 0px;
-  }
-  p {
+}
+
+p {
     margin: 0px 0px 10px;
-  }
-  p {
+}
+
+p {
     margin: 0px;
-  }
-  p.dow {
+}
+
+p.dow {
     font-size: 15px;
     color: rgb(153, 153, 153);
     font-weight: 300;
     line-height: 1.8em;
     margin-bottom: 1em;
-  }
-  .selectroom_right p {
+}
+
+.selectroom_right p {
     font-size: 15px;
     line-height: 1.6em;
     font-weight: 300;
     color: rgb(153, 153, 153);
-  }
-  b,
-  strong {
+}
+
+b,
+strong {
     font-weight: bold;
-  }
-  .ban-bottom {
+}
+
+.ban-bottom {
     margin-top: 30px;
-  }
-  .bnr-right {
+}
+
+.bnr-right {
     float: left;
     width: 50%;
-  }
-  label {
+}
+
+label {
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
     font-weight: bold;
-  }
-  label {
+}
+
+label {
     margin: 0px;
-  }
-  .ban-top .inputLabel,
-  .ban-bottom .inputLabel {
+}
+
+.ban-top .inputLabel,
+.ban-bottom .inputLabel {
     display: block;
     font-weight: 600;
     font-size: 14px;
     margin-bottom: 5px;
     color: rgb(25, 25, 25);
-  }
-  button,
-  input,
-  optgroup,
-  select,
-  textarea {
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
     margin: 0px;
     font: inherit;
     color: inherit;
-  }
-  input {
+}
+
+input {
     line-height: normal;
-  }
-  input,
-  button,
-  select,
-  textarea {
+}
+
+input,
+button,
+select,
+textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-  }
-  .date {
-    background: url("../images/date-icon.png") 95.5% 45% no-repeat
-      rgb(255, 255, 255);
+}
+
+.date {
+    background: url("../images/date-icon.png") 95.5% 45% no-repeat rgb(255, 255, 255);
     cursor: pointer;
-  }
-  .clearfix::before,
-  .clearfix::after,
-  .dl-horizontal dd::before,
-  .dl-horizontal dd::after,
-  .container::before,
-  .container::after,
-  .container-fluid::before,
-  .container-fluid::after,
-  .row::before,
-  .row::after,
-  .form-horizontal .form-group::before,
-  .form-horizontal .form-group::after,
-  .btn-toolbar::before,
-  .btn-toolbar::after,
-  .btn-group-vertical > .btn-group::before,
-  .btn-group-vertical > .btn-group::after,
-  .nav::before,
-  .nav::after,
-  .navbar::before,
-  .navbar::after,
-  .navbar-header::before,
-  .navbar-header::after,
-  .navbar-collapse::before,
-  .navbar-collapse::after,
-  .pager::before,
-  .pager::after,
-  .panel-body::before,
-  .panel-body::after,
-  .modal-footer::before,
-  .modal-footer::after {
+}
+
+.clearfix::before,
+.clearfix::after,
+.dl-horizontal dd::before,
+.dl-horizontal dd::after,
+.container::before,
+.container::after,
+.container-fluid::before,
+.container-fluid::after,
+.row::before,
+.row::after,
+.form-horizontal .form-group::before,
+.form-horizontal .form-group::after,
+.btn-toolbar::before,
+.btn-toolbar::after,
+.btn-group-vertical>.btn-group::before,
+.btn-group-vertical>.btn-group::after,
+.nav::before,
+.nav::after,
+.navbar::before,
+.navbar::after,
+.navbar-header::before,
+.navbar-header::after,
+.navbar-collapse::before,
+.navbar-collapse::after,
+.pager::before,
+.pager::after,
+.panel-body::before,
+.panel-body::after,
+.modal-footer::before,
+.modal-footer::after {
     display: table;
     content: " ";
-  }
-  .clearfix::after,
-  .dl-horizontal dd::after,
-  .container::after,
-  .container-fluid::after,
-  .row::after,
-  .form-horizontal .form-group::after,
-  .btn-toolbar::after,
-  .btn-group-vertical > .btn-group::after,
-  .nav::after,
-  .navbar::after,
-  .navbar-header::after,
-  .navbar-collapse::after,
-  .pager::after,
-  .panel-body::after,
-  .modal-footer::after {
+}
+
+.clearfix::after,
+.dl-horizontal dd::after,
+.container::after,
+.container-fluid::after,
+.row::after,
+.form-horizontal .form-group::after,
+.btn-toolbar::after,
+.btn-group-vertical>.btn-group::after,
+.nav::after,
+.navbar::after,
+.navbar-header::after,
+.navbar-collapse::after,
+.pager::after,
+.panel-body::after,
+.modal-footer::after {
     clear: both;
-  }
-  .grand {
+}
+
+.grand {
     text-align: right;
-  }
-  h3,
-  .h3 {
+}
+
+h3,
+.h3 {
     font-size: 24px;
-  }
-  .selectroom_right h3 {
+}
+
+.selectroom_right h3 {
     font-size: 1.7em;
     font-weight: 600;
     color: rgb(52, 173, 0);
-  }
-  ul,
-  ol {
+}
+
+ul,
+ol {
     margin-top: 0px;
     margin-bottom: 10px;
-  }
-  ul {
+}
+
+ul {
     margin: 0px;
     padding: 0px;
-  }
-  .selectroom-info ul {
+}
+
+.selectroom-info ul {
     margin-top: 3em;
-  }
-  .selectroom-info li {
+}
+
+.selectroom-info li {
     display: inline-block;
-  }
-  li.spe {
+}
+
+li.spe {
     width: 100%;
     margin-top: 3em;
-  }
-  a {
+}
+
+a {
     background-color: transparent;
-  }
-  a:active,
-  a:hover {
+}
+
+a:active,
+a:hover {
     outline: 0px;
-  }
-  a {
+}
+
+a {
     color: rgb(51, 122, 183);
     text-decoration: none;
-  }
-  a:hover,
-  a:focus {
+}
+
+a:hover,
+a:focus {
     color: rgb(35, 82, 124);
     text-decoration: underline;
-  }
-  a:focus {
+}
+
+a:focus {
     outline: -webkit-focus-ring-color auto 5px;
     outline-offset: -2px;
-  }
-  .btn {
+}
+
+.btn {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -376,100 +415,113 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-  }
-  .btn:focus,
-  .btn:active:focus,
-  .btn.active:focus,
-  .btn.focus,
-  .btn:active.focus,
-  .btn.active.focus {
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
     outline: -webkit-focus-ring-color auto 5px;
     outline-offset: -2px;
-  }
-  .btn:hover,
-  .btn:focus,
-  .btn.focus {
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
     color: rgb(51, 51, 51);
     text-decoration: none;
-  }
-  .btn:active,
-  .btn.active {
+}
+
+.btn:active,
+.btn.active {
     background-image: none;
     outline: 0px;
     box-shadow: rgba(0, 0, 0, 0.125) 0px 3px 5px inset;
-  }
-  .btn-primary {
+}
+
+.btn-primary {
     color: rgb(255, 255, 255);
     background-color: rgb(51, 122, 183);
     border-color: rgb(46, 109, 164);
-  }
-  .btn-primary:hover,
-  .btn-primary:focus,
-  .btn-primary.focus,
-  .btn-primary:active,
-  .btn-primary.active,
-  .open > .dropdown-toggle.btn-primary {
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
     color: rgb(255, 255, 255);
     background-color: rgb(40, 96, 144);
     border-color: rgb(32, 77, 116);
-  }
-  .btn-primary:active,
-  .btn-primary.active,
-  .open > .dropdown-toggle.btn-primary {
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
     background-image: none;
-  }
-  body a,
-  .grid_1,
-  plan_1,
-  plan_1.one,
-  plan_1.two,
-  i.icon1,
-  i.icon2,
-  i.icon3,
-  i.icon4,
-  i.icon5,
-  i.icon6 {
+}
+
+body a,
+.grid_1,
+plan_1,
+plan_1.one,
+plan_1.two,
+i.icon1,
+i.icon2,
+i.icon3,
+i.icon4,
+i.icon5,
+i.icon6 {
     transition: all 0.5s ease 0s;
-  }
-  a:hover {
+}
+
+a:hover {
     text-decoration: none;
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .selectroom_top {
-      padding: 1em;
+        padding: 1em;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media (min-width: 992px) {
+}
+
+@media (min-width: 992px) {
     .col-md-1,
     .col-md-2,
     .col-md-3,
@@ -482,63 +534,72 @@
     .col-md-10,
     .col-md-11,
     .col-md-12 {
-      float: left;
+        float: left;
     }
-  }
-  @media (min-width: 992px) {
+}
+
+@media (min-width: 992px) {
     .col-md-4 {
-      width: 33.3333%;
+        width: 33.3333%;
     }
-  }
-  @media (max-width: 991px) {
+}
+
+@media (max-width: 991px) {
     .selectroom_left {
-      padding: 0px;
-      margin-bottom: 1.5em;
+        padding: 0px;
+        margin-bottom: 1.5em;
     }
-  }
-  @media all {
+}
+
+@media all {
     .animated {
-      animation-duration: 1s;
-      animation-fill-mode: both;
+        animation-duration: 1s;
+        animation-fill-mode: both;
     }
-  }
-  @media all {
+}
+
+@media all {
     .fadeInLeft {
-      animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     tr,
     img {
-      break-inside: avoid;
+        break-inside: avoid;
     }
-  }
-  @media print {
+}
+
+@media print {
     img {
-      max-width: 100% !important;
+        max-width: 100% !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media (min-width: 992px) {
+}
+
+@media (min-width: 992px) {
     .col-md-1,
     .col-md-2,
     .col-md-3,
@@ -551,608 +612,686 @@
     .col-md-10,
     .col-md-11,
     .col-md-12 {
-      float: left;
+        float: left;
     }
-  }
-  @media (min-width: 992px) {
+}
+
+@media (min-width: 992px) {
     .col-md-8 {
-      width: 66.6667%;
+        width: 66.6667%;
     }
-  }
-  @media (max-width: 991px) {
+}
+
+@media (max-width: 991px) {
     .selectroom_right {
-      padding: 0px;
+        padding: 0px;
     }
-  }
-  @media all {
+}
+
+@media all {
     .animated {
-      animation-duration: 1s;
-      animation-fill-mode: both;
+        animation-duration: 1s;
+        animation-fill-mode: both;
     }
-  }
-  @media all {
+}
+
+@media all {
     .fadeInRight {
-      animation-name: fadeInRight;
+        animation-name: fadeInRight;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     p,
     h2,
     h3 {
-      orphans: 3;
-      widows: 3;
+        orphans: 3;
+        widows: 3;
     }
-  }
-  @media print {
+}
+
+@media print {
     h2,
     h3 {
-      break-after: avoid;
+        break-after: avoid;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     p,
     h2,
     h3 {
-      orphans: 3;
-      widows: 3;
+        orphans: 3;
+        widows: 3;
     }
-  }
-  @media (max-width: 414px) {
+}
+
+@media (max-width: 414px) {
     .selectroom_right p {
-      font-size: 14px;
+        font-size: 14px;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .selectroom_right p {
-      font-size: 13px;
+        font-size: 13px;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     p,
     h2,
     h3 {
-      orphans: 3;
-      widows: 3;
+        orphans: 3;
+        widows: 3;
     }
-  }
-  @media (max-width: 414px) {
+}
+
+@media (max-width: 414px) {
     .selectroom_right p {
-      font-size: 14px;
+        font-size: 14px;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .selectroom_right p {
-      font-size: 13px;
+        font-size: 13px;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     p,
     h2,
     h3 {
-      orphans: 3;
-      widows: 3;
+        orphans: 3;
+        widows: 3;
     }
-  }
-  @media (max-width: 414px) {
+}
+
+@media (max-width: 414px) {
     .selectroom_right p {
-      font-size: 14px;
+        font-size: 14px;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .selectroom_right p {
-      font-size: 13px;
+        font-size: 13px;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     p,
     h2,
     h3 {
-      orphans: 3;
-      widows: 3;
+        orphans: 3;
+        widows: 3;
     }
-  }
-  @media (max-width: 414px) {
+}
+
+@media (max-width: 414px) {
     .selectroom_right p {
-      font-size: 14px;
+        font-size: 14px;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .selectroom_right p {
-      font-size: 13px;
+        font-size: 13px;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .ban-bottom {
-      margin-top: 20px;
+        margin-top: 20px;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media (max-width: 600px) {
+}
+
+@media (max-width: 600px) {
     .ban-top .inputLabel,
     .ban-bottom .inputLabel {
-      font-size: 13px;
+        font-size: 13px;
     }
-  }
-  @media (max-width: 384px) {
+}
+
+@media (max-width: 384px) {
     .ban-top .inputLabel,
     .ban-bottom .inputLabel {
-      font-size: 12px;
+        font-size: 12px;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .ban-top .inputLabel,
     .ban-bottom .inputLabel {
-      font-size: 11px;
+        font-size: 11px;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media (max-width: 667px) {
+}
+
+@media (max-width: 667px) {
     .bnr-right input[type="text"] {
-      padding: 6px 10px;
+        padding: 6px 10px;
     }
-  }
-  @media (max-width: 600px) {
+}
+
+@media (max-width: 600px) {
     .bnr-right input[type="text"] {
-      font-size: 13px;
-      margin-top: 0px;
+        font-size: 13px;
+        margin-top: 0px;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media (max-width: 600px) {
+}
+
+@media (max-width: 600px) {
     .ban-top .inputLabel,
     .ban-bottom .inputLabel {
-      font-size: 13px;
+        font-size: 13px;
     }
-  }
-  @media (max-width: 384px) {
+}
+
+@media (max-width: 384px) {
     .ban-top .inputLabel,
     .ban-bottom .inputLabel {
-      font-size: 12px;
+        font-size: 12px;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .ban-top .inputLabel,
     .ban-bottom .inputLabel {
-      font-size: 11px;
+        font-size: 11px;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media (max-width: 667px) {
+}
+
+@media (max-width: 667px) {
     .bnr-right input[type="text"] {
-      padding: 6px 10px;
+        padding: 6px 10px;
     }
-  }
-  @media (max-width: 600px) {
+}
+
+@media (max-width: 600px) {
     .bnr-right input[type="text"] {
-      font-size: 13px;
-      margin-top: 0px;
+        font-size: 13px;
+        margin-top: 0px;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .grand {
-      text-align: right;
-      margin-top: 0.5em;
+        text-align: right;
+        margin-top: 0.5em;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     p,
     h2,
     h3 {
-      orphans: 3;
-      widows: 3;
+        orphans: 3;
+        widows: 3;
     }
-  }
-  @media (max-width: 414px) {
+}
+
+@media (max-width: 414px) {
     .selectroom_right p {
-      font-size: 14px;
+        font-size: 14px;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .selectroom_right p {
-      font-size: 13px;
+        font-size: 13px;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     p,
     h2,
     h3 {
-      orphans: 3;
-      widows: 3;
+        orphans: 3;
+        widows: 3;
     }
-  }
-  @media print {
+}
+
+@media print {
     h2,
     h3 {
-      break-after: avoid;
+        break-after: avoid;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .selectroom_right h3 {
-      font-size: 1.5em;
+        font-size: 1.5em;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     p,
     h2,
     h3 {
-      orphans: 3;
-      widows: 3;
+        orphans: 3;
+        widows: 3;
     }
-  }
-  @media print {
+}
+
+@media print {
     h2,
     h3 {
-      break-after: avoid;
+        break-after: avoid;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     p,
     h2,
     h3 {
-      orphans: 3;
-      widows: 3;
+        orphans: 3;
+        widows: 3;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .selectroom_top {
-      padding: 1em;
+        padding: 1em;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     p,
     h2,
     h3 {
-      orphans: 3;
-      widows: 3;
+        orphans: 3;
+        widows: 3;
     }
-  }
-  @media print {
+}
+
+@media print {
     h2,
     h3 {
-      break-after: avoid;
+        break-after: avoid;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media all {
+}
+
+@media all {
     .animated {
-      animation-duration: 1s;
-      animation-fill-mode: both;
+        animation-duration: 1s;
+        animation-fill-mode: both;
     }
-  }
-  @media all {
+}
+
+@media all {
     .fadeInUp {
-      animation-name: fadeInUp;
+        animation-name: fadeInUp;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media (max-width: 320px) {
+}
+
+@media (max-width: 320px) {
     .selectroom-info ul {
-      margin-top: 1em;
+        margin-top: 1em;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media (max-width: 667px) {
+}
+
+@media (max-width: 667px) {
     li.spe {
-      margin-top: 1em;
+        margin-top: 1em;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  @media print {
+}
+
+@media print {
     a,
     a:visited {
-      text-decoration: underline;
+        text-decoration: underline;
     }
-  }
-  @media print {
+}
+
+@media print {
     *,
-    ::before,
-    ::after {
-      color: rgb(0, 0, 0) !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     ::before,
+     ::after {
+        color: rgb(0, 0, 0) !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  
+}
