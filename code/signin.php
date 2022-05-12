@@ -1,5 +1,6 @@
 <?php 
     include("connection.php");
+    session_start();
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +47,7 @@
                 <div class="overlay-panel overlay-right">
                     <h1>Hello!</h1>
                     <p>Enter your personal details and begin your journey with us</p>
-                    <a href="signup.php"><button class="ghost" id="signUp" formaction="signup.html">Sign up</button></a>
+                    <a href="signup.php"><button class="ghost" id="signUp">Sign up</button></a>
                 </div>
             </div>
         </div>
@@ -60,10 +61,11 @@
                 echo "<script>alert('Incorrect email and password')</script>";
             }
             else{
+                $_SESSION['auth'] = '1';
+                $_SESSION['name'] = `$_POST[email]`;
                 header("location: home.php");
             }
         }
-
      ?>
 
 </body>

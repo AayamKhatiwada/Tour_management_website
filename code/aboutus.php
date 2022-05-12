@@ -1,15 +1,14 @@
 <?php
     session_start();
 ?>
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Us Section</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="package.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="aboutus.css">
 </head>
 
 <body>
@@ -52,34 +51,29 @@
             </ul>
         </div>
         <hr class="h">
-
+        <div class="section">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title">
+                        <h1>About Us</h1>
+                    </div>
+                    <div class="content">
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="image-section">
+                    <img src="immm.jpg">
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="vl"></div>
-
-    <?php
-    include("connection.php");
-    $query="SELECT * FROM package";
-    $result=mysqli_query($con,$query);
-	  while($rows = mysqli_fetch_array($result)){?>
-    <div class="rom-btm">
-        <div class="col-md-3 room-left wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-        <img src="paris.jpg" class="img-responsive" alt="">
-    </div>
-    <div class="col-md-6 room-midle wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-        <h4>Package Name: <?php echo $rows[1];?></h4>
-        <h6>Package Type : <?php echo $rows[2];?></h6>
-        <p><b>Package Location :</b> <?php echo $rows[3];?></p>
-        <p><b>Features</b> <?php echo $rows[4];?></p>
-    </div>
-    <div class="col-md-3 room-right wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-        <h5>USD <?php echo $rows[5];?></h5>
-        <a href="packageDetail.php?number= <?php echo $rows[0];?> " class="view">Details</a>
-    </div>
-    <div class="clearfix"></div>
-    </div>
-    <?php
-        }
-    ?>
 
 </body>
 

@@ -1,6 +1,5 @@
 <?php
 include("connection.php");
-error_reporting(0);
 $num = $_GET['number'];
 $data = $_GET['data'];
 $delete = "DELETE FROM `$data` WHERE `S no.` = '$num'";
