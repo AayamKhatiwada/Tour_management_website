@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -10,19 +13,42 @@
 <body>
 	<img src="enquiry-image.jpg" alt="" style="height:400px; width: 600px; position:absolute; margin-left: 600px; margin-top: 200px;">
 
-	<div class="banner">
-        <div class="navbar">
-            <h2 class="heading">Tour Management System</h2>
-            <ul>
-                <li><a href="home.php">Home </a></li>
-                <li><a href="aboutus.html">About us</a></li>
-                <li><a href="package.php">Tour package</a></li>
-                <li><a href="enquiry.php">Enquiries</a></li>
-                <li><a href="Contact_Us.php">Contact us</a></li>
-            </ul>
-            <ul>
-                <li><a href="signin.php">Sign up/login</a></li>
-                <li><a href="admin.php">Admin</a></li>
+	<?php
+                echo $_SESSION['auth'];
+                if (!$_SESSION['auth']){?>
+                <div class="banner">
+                    <div class="navbar">
+                        <h2 class="heading">Tour Management System</h2>
+                        <ul>
+                            <li><a href="home.php">Home </a></li>
+                            <li><a href="aboutus.php">About us</a></li>
+                            <li><a href="package.php">Tour package</a></li>
+                            <li><a href="enquiry.php">Enquiries</a></li>
+                            <li><a href="Contact_Us.php">Contact us</a></li>
+                        </ul>
+                    <ul>
+                    <li><a href='signin.php'>Sign up/login</a></li><li><a href='admin.php'>Admin</a></li>
+                <?php
+                }
+                else{?>
+                    <div class="banner">
+                    <div class="navbar">
+                        <h2 class="heading">Tour Management System</h2>
+                        <ul>
+                            <li><a href="home.php">Home </a></li>
+                            <li><a href="aboutus.php">About us</a></li>
+                            <li><a href="package.php">Tour package</a></li>
+                            <li><a href="enquiry.php">Enquiries</a></li>
+                            <li><a href="Contact_Us.php">Contact us</a></li>
+                        </ul>
+                    <ul>
+                    <p style="color: black;">Welcome:</p>
+                    <span style="color: black;"><?php  echo $_SESSION['name']; ?></span>
+                    <li><a href="logout.php"><i class="fa fa-sign-out" style="color: black;">Logout</i></a></li>
+                <?php
+                $_SESSION['auth'] = '1';
+                }
+                ?>
             </ul>
         </div>
         <hr class="h">
