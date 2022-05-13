@@ -1,5 +1,6 @@
 <?php
     session_start();
+    error_reporting(0);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +11,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home1.css">
 
 </head>
 
@@ -42,10 +43,9 @@
                             <li><a href="enquiry.php">Enquiries</a></li>
                             <li><a href="Contact_Us.php">Contact us</a></li>
                         </ul>
-                    <ul>
-                    <p style="color: black;">Welcome:</p>
-                    <span style="color: black;"><?php  echo $_SESSION['name']; ?></span>
-                    <li><a href="logout.php"><i class="fa fa-sign-out" style="color: black;">Logout</i></a></li>
+                    <ul style="display:flex;">
+                    <p style="color: black; padding-right:10px;">Welcome: <?php echo $_SESSION['name'];?></p>
+                    <li><a href="logout.php"><i class="fa fa-sign-out" style="color: black; padding-left:10px;">Logout</i></a></li>
                 <?php
                 $_SESSION['auth'] = '1';
                 }
@@ -69,23 +69,39 @@
         </div>
         </div>
     </section>
-    
-    <div class="footer-basic">
-        <footer>
-            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Terms</a></li>
-                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-            </ul>
 
-            <p class="copyright">Company Name © 2018</p>
-        </footer>
+    <div class="vl"></div>
+
+    <h1 style="text-decoration: underline;color: #66CDAA;margin: 40px 90px;text-align: center;">Packages</h1>
+
+    <?php
+    include("connection.php");
+    $query="SELECT * FROM package";
+    $result=mysqli_query($con,$query);
+	  while($rows = mysqli_fetch_array($result)){?>
+    <div class="rom-btm" style="display:flex;">
+        <div class="col-md-3 room-left wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+        <img src="uploads/<?php echo $rows[7];?>" class="img-responsive" alt="hvgashgv">
     </div>
+    <div class="col-md-6 room-midle wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+        <h4>Package Name: <?php echo $rows[1];?></h4>
+        <h6>Package Type : <?php echo $rows[2];?></h6>
+        <p><b>Package Location :</b> <?php echo $rows[3];?></p>
+        <p><b>Features</b> <?php echo $rows[5];?></p>
+    </div>
+    <div class="col-md-3 room-right wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+        <h5>USD <?php echo $rows[4];?></h5>
+        <a href="packageDetail.php?number= <?php echo $rows[0];?> " class="view">Details</a>
+    </div>
+    <div class="clearfix"></div>
+    </div>
+    <?php
+        }
+    ?>
 
-
+    <?php
+    include("footer.php");
+    ?>
 </body>
 
 </html>

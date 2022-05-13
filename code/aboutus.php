@@ -1,5 +1,6 @@
 <?php
     session_start();
+    error_reporting(0);
 ?>
 <html>
 
@@ -13,7 +14,6 @@
 
 <body>
 <?php
-                echo $_SESSION['auth'];
                 if (!$_SESSION['auth']){?>
                 <div class="banner">
                     <div class="navbar">
@@ -74,6 +74,9 @@
             </div>
         </div>
     </div>
+    <?php
+    include("footer.php");
+    ?>
 
 </body>
 

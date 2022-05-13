@@ -1,5 +1,6 @@
 <?php
     session_start();
+    error_reporting(0);
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -14,7 +15,6 @@
 	<img src="enquiry-image.jpg" alt="" style="height:400px; width: 600px; position:absolute; margin-left: 600px; margin-top: 200px;">
 
 	<?php
-                echo $_SESSION['auth'];
                 if (!$_SESSION['auth']){?>
                 <div class="banner">
                     <div class="navbar">
@@ -108,5 +108,8 @@
         }
 
      ?>
+         <?php
+    include("footer.php");
+    ?>
 </body>
 </html>

@@ -1,6 +1,7 @@
 <?php 
     include("connection.php");
     session_start();
+    $_SESSION['auth'] = '0';
 ?>
 
 <!DOCTYPE html>
@@ -57,12 +58,15 @@
         if (isset($_POST['Signin'])){
             $query= "SELECT * FROM `user` WHERE email = '$_POST[email]' AND password='$_POST[password]'";
             $result = mysqli_query($con,$query);
+            while($rows = mysqli_fetch_array($result)){
+                $_SESSION['number'] = $rows[0];
+                $_SESSION['name'] = $rows[1];
+            }
             if(mysqli_num_rows($result)==NULL){
                 echo "<script>alert('Incorrect email and password')</script>";
             }
             else{
                 $_SESSION['auth'] = '1';
-                $_SESSION['name'] = `$_POST[email]`;
                 header("location: home.php");
             }
         }

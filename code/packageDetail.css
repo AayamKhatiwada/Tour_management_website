@@ -255,7 +255,6 @@ label {
     color: rgb(25, 25, 25);
 }
 
-button,
 input,
 optgroup,
 select,
@@ -270,7 +269,6 @@ input {
 }
 
 input,
-button,
 select,
 textarea {
     font-family: inherit;

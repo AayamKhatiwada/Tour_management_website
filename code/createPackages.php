@@ -38,7 +38,7 @@
 					  </div>
 					</a>
 					<ul class="dropdown-menu drp-mnu">
-					  <li> <a href="home.html"><i class="fa fa-sign-out" style="color: black;"></i> Logout</a> </li>
+					  <li> <a href="home.php"><i class="fa fa-sign-out" style="color: black;"></i> Logout</a> </li>
 					</ul>
 				  </li>
 				</ul>
@@ -130,15 +130,43 @@
             $packageprice=$_POST['packageprice'];
 			$packagefeatures=$_POST['packagefeatures'];
 			$packagedetails=$_POST['packagedetails'];
-			//$packageimage=$_POST['packageimage'];
 
-            $query= "INSERT INTO package(name, type, location, price, features, description) VALUES ('$packagename','$packagetype','$packagelocation','$packageprice','$packagefeatures','$packagedetails')";
-            if (mysqli_query($con,$query)){
-                echo "<script>alert('Package created')</script>";
-            }
-            else{
-                echo "<script>alert('Package not created')</script>";
-            }
+			$img_name = $_FILES['packageimage']['name'];
+			$img_size = $_FILES['packageimage']['size'];
+			$tmp_name = $_FILES['packageimage']['tmp_name'];
+			$error = $_FILES['packageimage']['error'];
+
+			if ($error === 0){
+				if($img_size > 125000){
+					$em = "Sorry, your file is too large.";
+					header("location: createPackages.php?error=$em");
+				}else{
+					$img_ex = explode('.', $img_name);
+					$img_ex_lc = strtolower(end($img_ex));
+
+					$allowed_exs = array("jpg","jpeg","png");
+
+					if(in_array($img_ex_lc, $allowed_exs)){
+						$img_upload_path = 'uploads/'.$img_name;
+						move_uploaded_file($tmp_name, $img_upload_path);
+
+						$query= "INSERT INTO package(name, type, location, price, features, description,picture) VALUES ('$packagename','$packagetype','$packagelocation','$packageprice','$packagefeatures','$packagedetails','$img_name')";
+						if (mysqli_query($con,$query)){
+							echo "<script>alert('Package created')</script>";
+						}
+						else{
+							echo "<script>alert('Package not created')</script>";
+						}
+					}else{
+						$em = "You can't upload files of this type";
+						header("location: createPackages.php?error=$em");
+					}
+				}
+			}
+			else{
+				$em = "unknown error occured";
+				header("location: createPackages.php?error=$em");
+			}
 
         }
 

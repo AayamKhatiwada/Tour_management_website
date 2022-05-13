@@ -1,5 +1,6 @@
 <?php
     session_start();
+    error_reporting(0);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +15,6 @@
 
 <body>
 <?php
-                echo $_SESSION['auth'];
                 if (!$_SESSION['auth']){?>
                 <div class="banner">
                     <div class="navbar">
@@ -63,22 +63,25 @@
 	  while($rows = mysqli_fetch_array($result)){?>
     <div class="rom-btm">
         <div class="col-md-3 room-left wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-        <img src="paris.jpg" class="img-responsive" alt="">
+        <img src="uploads/<?php echo $rows[7];?>" class="img-responsive" alt="hvgashgv">
     </div>
     <div class="col-md-6 room-midle wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
         <h4>Package Name: <?php echo $rows[1];?></h4>
         <h6>Package Type : <?php echo $rows[2];?></h6>
         <p><b>Package Location :</b> <?php echo $rows[3];?></p>
-        <p><b>Features</b> <?php echo $rows[4];?></p>
+        <p><b>Features</b> <?php echo $rows[5];?></p>
     </div>
     <div class="col-md-3 room-right wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-        <h5>USD <?php echo $rows[5];?></h5>
+        <h5>USD <?php echo $rows[4];?></h5>
         <a href="packageDetail.php?number= <?php echo $rows[0];?> " class="view">Details</a>
     </div>
     <div class="clearfix"></div>
     </div>
     <?php
         }
+    ?>
+        <?php
+    include("footer.php");
     ?>
 
 </body>
