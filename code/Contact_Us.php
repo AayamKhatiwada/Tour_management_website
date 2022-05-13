@@ -81,7 +81,7 @@
                     </div>
                     <div class="information">
                         <img src="img/email.png" class="icon" alt="" />
-                        <p>lorem@ipsum.com</p>
+                        <p>TourManagementSystem@free.com</p>
                     </div>
                     <div class="information">
                         <img src="img/phone.png" class="icon" alt="" />
