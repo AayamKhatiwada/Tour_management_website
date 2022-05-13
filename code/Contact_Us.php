@@ -71,13 +71,13 @@
             <div class="contact-info">
                 <h3 class="title" style="color: #66CDAA;">Let's get in touch</h3>
                 <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum adipisci recusandae praesentium dicta!
+                    Message us with your any question or enquiries!
                 </p>
 
                 <div class="info">
                     <div class="information">
                         <img src="img/location.png" class="icon" alt="" />
-                        <p>92 Cherry Drive Uniondale, NY 11553</p>
+                        <p>Nepal , Kathmandu , Naxal</p>
                     </div>
                     <div class="information">
                         <img src="img/email.png" class="icon" alt="" />
