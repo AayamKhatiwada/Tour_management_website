@@ -84,7 +84,7 @@ CREATE TABLE `enquiry` (
 
 INSERT INTO `enquiry` (`S no.`, `name`, `email`, `phoneno`, `subject`, `description`) VALUES
 (1, '', '', '', '', 'hello'),
-(2, 'aayam', 'khatiwadaaayam@gmail.com', '9818354005', 'nothing', 'This just for try');
+(2, 'aayam', 'khatiwadaaayam@gmail.com', '9818354005', 'nothing', 'This just for trying');
 
 -- --------------------------------------------------------
 
