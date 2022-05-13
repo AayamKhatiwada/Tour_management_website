@@ -26,4 +26,5 @@ if($data=='enquiry'){
 <META HTTP-EQUIV="Refresh" CONTENT="0; URL= http://localhost/TMS/code/manageEnquiry.php">
 <?php
     }
+
 ?>
