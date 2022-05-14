@@ -77,12 +77,12 @@
 						  while($rows = mysqli_fetch_array($result)){?>
                 <tr>
                   <td data-th="S no."><span class="bt-content"><?php echo $rows[0];?></span></td>
-                  <td data-th="Name"><span class="bt-content"><?php echo $rows[1];?></span></td>
-                  <td data-th="Mobile No."><span class="bt-content"><?php echo $rows[2];?></span></td>
-                  <td data-th="Email Id"><span class="bt-content"><?php echo $rows[3];?></span></td>
-                  <td data-th="From Date "><span class="bt-content"><?php echo $rows[4];?></span></td>
-                  <td data-th="To Date"><span class="bt-content"><?php echo $rows[5];?></span></td>
-                  <td data-th="Comment "><span class="bt-content"><?php echo $rows[6];?></span></td>
+                  <td data-th="Name"><span class="bt-content"><?php echo $rows[2];?></span></td>
+                  <td data-th="Mobile No."><span class="bt-content"><?php echo $rows[3];?></span></td>
+                  <td data-th="Email Id"><span class="bt-content"><?php echo $rows[4];?></span></td>
+                  <td data-th="From Date "><span class="bt-content"><?php echo $rows[5];?></span></td>
+                  <td data-th="To Date"><span class="bt-content"><?php echo $rows[6];?></span></td>
+                  <td data-th="Comment "><span class="bt-content"><?php echo $rows[7];?></span></td>
                   <td data-th="Edit/delete"><span class="bt-content"><a href="delete.php?data=booking&number=<?php echo $rows[0];?>"><button class="btn-primary btn"><i class="fa fa-trash-o"></i></button></a></span></td>
                 </tr>
                 <?php

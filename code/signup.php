@@ -47,6 +47,7 @@
 
             $query= "INSERT INTO user(username, email, phoneno, password) VALUES ('$name','$email','$phoneno','$password')";
             if (mysqli_query($con,$query)){
+                echo "<script>alert('User registered')</script>";
                 header("Location: signin.php");
             }
             else{

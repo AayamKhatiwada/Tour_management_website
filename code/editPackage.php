@@ -60,7 +60,6 @@
   	       <h3>Edit Package</h3>
              <?php
                  $num = $_GET['number'];
-                 echo $num;
               while($rows = mysqli_fetch_array($result)){
                 if($rows[0]==$num){?>
   	        	    	         <div class="tab-content">

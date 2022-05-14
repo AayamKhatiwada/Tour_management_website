@@ -65,7 +65,7 @@
       <img src="uploads/<?php echo $rows[7];?>" class="img-responsive" alt="">
     </div>
     <div class="col-md-8 selectroom_right wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-    <h2>(<?php echo $rows[2];?>)</h2>
+    <h2><?php echo $rows[1];?></h2>
       <p><b>Package Type :</b> <?php echo $rows[2];?></p>
       <p><b>Package Location :</b> <?php echo $rows[3];?></p>
       <p><b>Features</b> <?php echo $rows[5];?></p>
