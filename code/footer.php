@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="footer.css">
-<hr>
 <div class="footer-basic">
+    <hr>
         <footer>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="home.php">Home</a></li>
