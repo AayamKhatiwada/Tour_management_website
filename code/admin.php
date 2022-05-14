@@ -18,7 +18,7 @@
                  <input type="text" placeholder="Admin_name" name="Admin_name" class="input-field" required>
              </div>
              <div class="input-container">
-                <input type="text" placeholder="Password" name="password" class="input-field"  required>
+                <input type="password" placeholder="Password" name="password" class="input-field"  required>
                </div>
             <div><button type="submit" class="bttn" name="Signin">Log in</button>
          </form>

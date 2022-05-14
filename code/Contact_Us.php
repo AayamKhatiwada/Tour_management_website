@@ -123,15 +123,29 @@
         <?php
         include("connection.php");
         if (isset($_POST['submit'])){
-            $description=$_POST['message'];
-            $query= "INSERT INTO enquiry(description) VALUES ('$description')";
-            if (mysqli_query($con,$query)){
-                echo "<script>alert('Your message has been submitted')</script>";
+            if ($_SESSION['auth']){
+                $number = $_SESSION['number'];
+                $description=$_POST['message'];
+                $query = "SELECT * FROM user  WHERE `S no.` = '$number'";
+                $result = mysqli_query($con,$query);
+            
+                while($rows = mysqli_fetch_array($result)){
+                    $name = $rows[1];
+                    $email = $rows[2];
+                    $phone_no = $rows[3];
+                }
+
+                $query= "INSERT INTO enquiry(name, email, phoneno, description) VALUES ('$name','$email','$phone_no','$description')";
+                if (mysqli_query($con,$query)){
+                    echo "<script>alert('Your message has been submitted')</script>";
+                }
+                else{
+                    echo "<script>alert('Your message has not been submitted')</script>";
+                }
             }
             else{
-                echo "<script>alert('Your message has not been submitted')</script>";
+                echo "<script>alert('Please login before submitting')</script>";
             }
-
         }
 
      ?>

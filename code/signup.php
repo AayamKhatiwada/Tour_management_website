@@ -34,7 +34,7 @@
                 <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
                 <div class="clearfix">
                     <button type="submit" class="signupbtn" style="margin:5px;" name="submit"><a> Sign Up</a></button>
-                    <button type="submit" class="signupbtn"><a href="home.html">Cancel</a></button>
+                    <button type="submit" class="signupbtn"><a href="signin.php">Cancel</a></button>
                 </div>
 
             </form>
