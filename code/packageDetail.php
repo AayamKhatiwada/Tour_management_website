@@ -25,6 +25,7 @@
                     <li><a href='signin.php'>Sign up/login</a></li><li><a href='admin.php'>Admin</a></li>
                 <?php
                 }
+	
                 else{?>
                     <div class="banner">
                     <div class="navbar">
