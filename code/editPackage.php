@@ -115,6 +115,7 @@
                                 <?php
                 }
               }
+	  
               ?>
 
 								<div class="row">
@@ -161,6 +162,7 @@
  	</div>
 </div>
 </div>
+			
 			<!--/sidebar-menu-->
 			<div class="sidebar-menu" style="background-color: rgb(51, 51, 51);">
 				<header class="logo1" style="background-color: rgb(51, 51, 51);">

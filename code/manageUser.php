@@ -26,6 +26,7 @@
 				<h1><a style="text-decoration: none; color: black;">Admin Tour Management</a></h1>
 			  </div>
 	
+				
 			  <div class="profile_details w3l" style="background-color: rgb(255, 254, 254);">
 				<ul>
 				  <li class="dropdown profile_details_drop">
