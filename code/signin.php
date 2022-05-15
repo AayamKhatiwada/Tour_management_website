@@ -36,6 +36,7 @@
                 <input type="password" placeholder="Password" name="password" />
                 <a href="#">Forgot your password</a>
                 <button name="Signin" Type="Signin">Login</button>
+                <a href="home.php"><button name="Signin" Type="Signin">cancel</button></a>
             </form>
         </div>
         <div class="overlay-container">
