@@ -37,10 +37,10 @@
                             <li><a href="enquiry.php">Enquiries</a></li>
                             <li><a href="Contact_Us.php">Contact us</a></li>
                         </ul>
-                    <ul>
+                    <ul style="display: flex; gap: 10px;">
                     <p style="color: black;">Welcome:</p>
                     <span style="color: black;"><?php  echo $_SESSION['name']; ?></span>
-                    <li><a href="logout.php"><i class="fa fa-sign-out" style="color: black;">Logout</i></a></li>
+                    <li><a href="logout.php"><b style="color: black;">Logout</b></a></li>
                 <?php
                 $_SESSION['auth'] = '1';
                 }

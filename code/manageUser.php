@@ -41,7 +41,7 @@
 					  </div>
 					</a>
 					<ul class="dropdown-menu drp-mnu">
-					  <li> <a href="home.html"><i class="fa fa-sign-out" style="color: black;"></i> Logout</a> </li>
+					  <li> <a href="home.php"><i class="fa fa-sign-out" style="color: black;"></i> Logout</a> </li>
 					</ul>
 				  </li>
 				</ul>

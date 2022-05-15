@@ -28,7 +28,7 @@
             $query= "SELECT * FROM `admin` WHERE name='$_POST[Admin_name]' AND password='$_POST[password]'";
             $result = mysqli_query($con,$query);
             if(mysqli_num_rows($result)==NULL){
-                echo 'incorrect';
+                echo "<script>alert('Incorrect admin name and password')</script>";
             }
             else{
                 header("location: dashboard.php");
