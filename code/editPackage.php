@@ -40,7 +40,7 @@
 					  </div>
 					</a>
 					<ul class="dropdown-menu drp-mnu">
-					  <li> <a href="home.html"><i class="fa fa-sign-out" style="color: black;"></i> Logout</a> </li>
+					  <li> <a href="home.php"><i class="fa fa-sign-out" style="color: black;"></i> Logout</a> </li>
 					</ul>
 				  </li>
 				</ul>
@@ -109,7 +109,7 @@
 <div class="form-group">
 									<label for="focusedinput" class="col-sm-2 control-label">Package Image</label>
 									<div class="col-sm-8">
-										<input type="file" name="packageimage" id="packageimage" required>
+										<input type="file" name="packageimage" id="packageimage" required><?php echo $rows[7];?></input>
 									</div>
 								</div>	
                                 <?php

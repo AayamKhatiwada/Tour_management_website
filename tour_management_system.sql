@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 09, 2022 at 06:09 AM
+-- Generation Time: May 16, 2022 at 04:18 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 8.0.8
 
@@ -47,6 +47,7 @@ INSERT INTO `admin` (`name`, `password`) VALUES
 
 CREATE TABLE `booking` (
   `S no.` int(11) NOT NULL,
+  `package no` int(11) NOT NULL,
   `name` varchar(25) NOT NULL,
   `mobileno` varchar(25) NOT NULL,
   `email` varchar(25) NOT NULL,
@@ -59,9 +60,8 @@ CREATE TABLE `booking` (
 -- Dumping data for table `booking`
 --
 
-INSERT INTO `booking` (`S no.`, `name`, `mobileno`, `email`, `fromdate`, `todate`, `comment`) VALUES
-(1, '[value-2]', '[value-3]', '[value-4]', '0000-00-00', '0000-00-00', '[value-7]'),
-(2, '[value-2]', '[value-3]', '[value-4]', '0000-00-00', '0000-00-00', '[value-7]');
+INSERT INTO `booking` (`S no.`, `package no`, `name`, `mobileno`, `email`, `fromdate`, `todate`, `comment`) VALUES
+(1, 2, 'Aayam', '9818354005', 'khatiwadaaayam@gmail.com', '2022-05-24', '2022-06-10', 'For the detail information, I will visit to the office.');
 
 -- --------------------------------------------------------
 
@@ -83,8 +83,8 @@ CREATE TABLE `enquiry` (
 --
 
 INSERT INTO `enquiry` (`S no.`, `name`, `email`, `phoneno`, `subject`, `description`) VALUES
-(1, '', '', '', '', 'hello'),
-(2, 'aayam', 'khatiwadaaayam@gmail.com', '9818354005', 'nothing', 'This just for trying');
+(1, 'aayam', 'khatiwadaaayam@gmail.com', '9818354005', 'New package', 'If it is possible, me and my family was planning to travel to Pokhara but there was no package of Pokhara.'),
+(2, 'soniya', 'soniyagrg66@gmail.com', '9840754877', 'tour details ', 'I was searching for a good deal to visit pokhara with my friends. ');
 
 -- --------------------------------------------------------
 
@@ -100,7 +100,7 @@ CREATE TABLE `package` (
   `price` varchar(25) NOT NULL,
   `features` text NOT NULL,
   `description` text NOT NULL,
-  `picture` text NOT NULL
+  `picture` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -108,10 +108,8 @@ CREATE TABLE `package` (
 --
 
 INSERT INTO `package` (`S no.`, `name`, `type`, `location`, `price`, `features`, `description`, `picture`) VALUES
-(1, 'a', 'b', 'c', 'd', 'e', '0', 'g'),
-(2, 'q', 'w', 'e', 'r', 't', '0', 'u'),
-(3, '[value-2]', '[value-3]', '[value-4]', '[value-5]', '[value-6]', '0', '[value-8]'),
-(4, 'fwjehbdsjm', 'wevsd', 'weds', '7', 'ewfsd', 'awaesdxfcv ', '');
+(1, 'Bhaktapur Durbar Square', 'Group package', 'Bhaktapur', '500', '55 window palace. The Palace of Fifty-five Windows was built during the reign of the Malla King Yaksha Malla in 1427 AD and was remodeled by King Bhupatindra Malla in the 17th century', 'Bhaktapur Durbar Square, locally known as Khwopa Lyaku is the royal palace of the old Bhaktapur Kingdom, 1,400 metres above sea level. It is a UNESCO World Heritage Site. Reasonably, it is grounded within the area of 6.52 square miles yet it has numerous temples and wow monuments.', 'bhaktapur.jpg'),
+(2, 'Gorkha', 'Family Package', 'Gorkha', '1000', 'Gorkha Durbar & Museum, Manaslu Circuit Trek, Manakamana Temple, Bhimsen Park, Larpak Village ', 'The old royal palace (Gorkha Durbar), Gorakhnath and Kalika (temple of the goddess Kali) are the main attractions. The Royal Palace itself was destroyed in the 2015 earthquake. However the Gorakhnath shrine and Kalika temple are open with no entrance charges.The lower palace (Tallo Durbar) and a modern park are other major attractions. It is also the starting point of the Manasalu Himal (Mount Manasalu) and Mount Ganesh trekking route. Gorkha Hospital is the hospital and Drabya Saha Multiple Campus and Gorkha Education Campus are the two campuses serving the population.', 'gorkhaa.jpg');
 
 -- --------------------------------------------------------
 
@@ -132,8 +130,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`S no.`, `username`, `email`, `phoneno`, `password`) VALUES
-(1, 'aayam', 'afdsv@as', 'sac', 'asdc'),
-(2, '[value-2]', '[value-3]', '[value-4]', '[value-5]');
+(1, 'Aayam', 'khatiwadaaayam@gmail.com', '9818354005', '123aayam123'),
+(2, 'Soniya', 'soniyagrg66@gmail.com', '9840754877', 'soniya');
 
 --
 -- Indexes for dumped tables
@@ -171,7 +169,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `booking`
 --
 ALTER TABLE `booking`
-  MODIFY `S no.` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `S no.` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `enquiry`
@@ -183,7 +181,7 @@ ALTER TABLE `enquiry`
 -- AUTO_INCREMENT for table `package`
 --
 ALTER TABLE `package`
-  MODIFY `S no.` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `S no.` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `user`
