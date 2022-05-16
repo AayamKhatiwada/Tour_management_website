@@ -59,8 +59,7 @@
                         <h1>About Us</h1>
                     </div>
                     <div class="content">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <p>Website of traveling Nepal with different package of different famous places. Visitors can submit forms on the various Tour Pages to request tourpackages. The Travel and Tours Company can view the Tour request submissions.
                         </p>
                     </div>
                     <div class="social">
